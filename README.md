@@ -8,7 +8,9 @@ This is a portfolio site for my Web Development work. It is designed to present 
 
 ### User Stories
 
-**User Goals**
+**Recruiter Goals**
+
+**Collaborator Goals**
 
 ### Design
 
@@ -41,6 +43,7 @@ This is a portfolio site for my Web Development work. It is designed to present 
 - Hover.css
 - Google Fonts
 - Font Awesome
+- VS Code
 - Git
 - GitHub
 - Balsamiq
@@ -86,12 +89,19 @@ I used GitHub Pages to deploy my project, using the steps as follows:
 
 ## Credits 
 
+README template used, taken from [Code Institute Solutions on GitHub](https://github.com/Code-Institute-Solutions/SampleREADME)
+
+https://www.atlassian.com/agile/project-management/user-stories
+
 ### Code
 
 ### Content 
 
+
 ### Media
 
 ?? Rachel Otterway Photography for profile image
+
+https://kinsta.com/blog/modern-fonts/
 
 ### Acknowledgements
