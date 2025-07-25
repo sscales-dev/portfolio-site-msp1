@@ -1,63 +1,97 @@
-# Personal Portfolio Site
+# Web Developer Portfolio Site
 
-Personal Portfolio Site is a site that advertises a budding web developer. It is targeted at both recruiters looking for a web developer to hire, and other developers looking for someone to collaborate with them on their projects. This will be useful, for recruiters and developers alike, to be able to assess whether the advertised developer is a good fit for the role they are hiring for, and for them to get in touch if so. 
+See link to live project [here](https://sscales-dev.github.io/portfolio-site-msp1/)
 
-![Wireframe]()
+This is a portfolio site for my Web Development work. It is designed to present my skills, portfolio of work and key information about me to potential employers and collaborators in a responsive and accessible format, utilising good UX design priciples and practices.
+
+## User Experience (UX)
+
+### User Stories
+
+**User Goals**
+
+### Design
+
+**Colour Scheme**
+
+
+**Typography**
+
+
+**Imagery**
+
+
+
+### Wireframes
 
 ## Features 
 
-describe each in a sentence or so  
-value each of the features provides for the user  
-focusing on who this website is for  
-what it is that they want to achieve  
-how your project is the best way to help them achieve these things.  
+### Possible Features
 
-### Existing Features
+## Technologies Used
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+### Languages Used
 
-### Features Left to Implement
+- HTML5
+- CSS3
 
+### Frameworks, Libraries & Programs Used
+
+- Bootstrap
+- Hover.css
+- Google Fonts
+- Font Awesome
+- Git
+- GitHub
+- Balsamiq
+
+?? Image resource page
 
 ## Testing 
 
-go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-how your project looks and works on different browsers and screen sizes.
-
-any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
 ### Validator Testing 
 
-- HTML
-  ([W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html))
-- CSS
-  ([(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css))
+- [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-### Unfixed Bugs
+### Testing User Stories from User Experience (UX) Section
 
-unfixed bugs and why they were not fixed  
-include shortcomings of the frameworks or technologies used  
-*paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.  
+### Further Testing
+
+### Known Bugs
 
 ## Deployment
 
+### GitHub Pages
+
 I used GitHub Pages to deploy my project, using the steps as follows:
 
-1) 
+1) Navigate to [GitHub](https://github.com)
+2) Click 'Login' at top right of page and login using credentials
+3) Navigate to [GitHub repository](https://github.com/sscales-dev/portfolio-site-msp1)
+4) Click Settings tab at top of page
 
-[Link to live deployment]()
+5) Scroll to bottom of 'General' page and click 'Change Visibility' > 'Change to Public'
+6) Click 'I want to make my repository public'
+7) Click 'I have read and understand these effects'
+8) Click 'Make This Respository Public'
 
+7) Choose 'Pages' from left-hand menu in Settings
+8) Under 'Build and deployment' > 'Branch', choose the source 'main' from the dropdown menu
+9) Click 'Save' (to the right of '/ (root)')
+
+### ??Forking the GitHub Repository
+
+### ??Making a Local Clone
 
 ## Credits 
 
-where you got your content, media and extra help from.
+### Code
 
 ### Content 
 
-
 ### Media
 
+?? Rachel Otterway Photography for profile image
+
+### Acknowledgements
