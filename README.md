@@ -1,6 +1,6 @@
 # Web Developer Portfolio Site
 
-See link to live project [here](https://sscales-dev.github.io/portfolio-site-msp1/)
+See link to the [live project](https://sscales-dev.github.io/portfolio-site-msp1/).
 
 This is a portfolio site for my Web Development work. It is designed to present my skills, portfolio of work and key information about me to potential employers and collaborators in a responsive and accessible format, utilising good UX design priciples and practices.
 
@@ -69,19 +69,19 @@ This is a portfolio site for my Web Development work. It is designed to present 
 
 I used GitHub Pages to deploy my project, using the steps as follows:
 
-1) Navigate to [GitHub](https://github.com)
-2) Click 'Login' at top right of page and login using credentials
-3) Navigate to [GitHub repository](https://github.com/sscales-dev/portfolio-site-msp1)
-4) Click Settings tab at top of page
+1.  Navigate to [GitHub](https://github.com)
+2.  Click 'Login' at top right of page and login using credentials
+3.  Navigate to [GitHub repository](https://github.com/sscales-dev/portfolio-site-msp1)
 
-5) Scroll to bottom of 'General' page and click 'Change Visibility' > 'Change to Public'
-6) Click 'I want to make my repository public'
-7) Click 'I have read and understand these effects'
-8) Click 'Make This Respository Public'
+1.  Click Settings tab at top of page
+1.  Scroll to bottom of 'General' page and click 'Change Visibility' > 'Change to Public'
+1.  Click 'I want to make my repository public'
+1.  Click 'I have read and understand these effects'
+1.  Click 'Make This Respository Public'
 
-7) Choose 'Pages' from left-hand menu in Settings
-8) Under 'Build and deployment' > 'Branch', choose the source 'main' from the dropdown menu
-9) Click 'Save' (to the right of '/ (root)')
+1.  Choose 'Pages' from left-hand menu in Settings
+1.  Under 'Build and deployment' > 'Branch', choose the source 'main' from the dropdown menu
+1.  Click 'Save' (to the right of '/ (root)')
 
 ### ??Forking the GitHub Repository
 
