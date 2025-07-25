@@ -10,8 +10,8 @@ Present skills and experience to potential recruiters in order to get hired
 - Quick access to contact information for candidate  
 - Clear outline of candidate's skills and experience 
   - Tech stack visibility
-  - Code quality
-  - Communication skills  
+  - Evidence of code quality
+  - Evidence of communication skills  
 - Site demonstrates candidate's user centric front-end skills  
   - Site is easy to read and navigate
     - Clear navigation menu
