@@ -6,6 +6,46 @@ This is a portfolio site for my Web Development work. It is designed to present 
 
 ## User Experience (UX)
 
+### Project Goals
+
+**Rational**
+
+**Business Goals:**
+
+Present skills and experience to potential recruiters in order to get hired
+
+**User Needs:**
+
+- Immediate understanding of who the candidate is
+- Quick access to contact information for candidate
+- Clear outline of candidate's skills and experience
+  - Tech stack visibility
+  - Evidence of code quality
+  - Evidence of communication skills
+- Site demonstrates candidate's user centric front-end skills
+  - Site is easy to read and navigate
+    - Clear navigation menu
+    - Well structured and intuitive layout
+    - Graphics that have a consistent style and color scheme
+    - Overall visual appeal and cohesiveness of the website
+    - Information is organised based on user experience principles
+  - Responsive Design
+  - Fast loading time
+  - Meets accessibility guidelines
+
+**Features to include:**
+
+- Short Bio/ About me
+- Skills and any other relevant competencies and interests.
+- Educational history and work experience.
+- Portfolio of projects
+- CV Download
+- Contact form
+
+**Future features:**
+
+- Testimonials or references
+
 ### User Stories
 
 **Recruiter Goals**
@@ -74,10 +114,7 @@ As a recruiter, I want to source a suitable candidate for the position of Full S
 
 I used GitHub Pages to deploy my project, using the steps as follows:
 
-1.  Navigate to [GitHub](https://github.com)
-2.  Click 'Login' at top right of page and login using credentials
-3.  Navigate to [GitHub repository](https://github.com/sscales-dev/portfolio-site-msp1)
-
+1.  Navigate to [GitHub repository](https://github.com/sscales-dev/portfolio-site-msp1)
 1.  Click Settings tab at top of page
 1.  Scroll to bottom of 'General' page and click 'Change Visibility' > 'Change to Public'
 1.  Click 'I want to make my repository public'
