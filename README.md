@@ -10,7 +10,12 @@ This is a portfolio site for my Web Development work. It is designed to present 
 
 **Recruiter Goals**
 
-**Collaborator Goals**
+As a recruiter, I want to source a suitable candidate for the position of Full Stack Web Developer, I want to be able to ascertain the following information quickly and easily from a developer's website, so that I can ascertain their suitability for the role I'm looking to fill:
+- A picture of who they are as a person and whether they will fit the team
+- Their skillset, level of experience and whether they can fundamentally do the job at hand
+- How to contact them to discuss the role further
+
+### Requirements
 
 ### Design
 
