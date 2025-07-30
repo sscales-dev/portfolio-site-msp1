@@ -44,6 +44,7 @@ Present skills and experience to potential recruiters in order to get hired
 
 **Future features:**
 
+- Dark mode
 - Testimonials or references
 
 ### User Stories
