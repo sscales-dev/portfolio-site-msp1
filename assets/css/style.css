@@ -13,9 +13,19 @@
 
 body {
     background-color: var(--charcoal-smoke);
+    font-family: "Chocolate Classical Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*------------------------------------------------ Header */
+
+header {
+    position: sticky;
+    top: 0;
+}
 
 h1 {
     display: inline-block;
@@ -56,4 +66,54 @@ h1 {
 
 .active {
     color: var(--dusty-rose);
+}
+
+
+/*------------------------------------------------ Footer */
+
+h6 {
+    color: var(--floral-white);
+    display: inline-block;
+    margin: 0;
+/*    text-align: right; */
+/*    width: 30%; */
+}
+
+.social-links {
+    width: 150px;  
+}
+
+.personal-info a,
+.social-links a {
+    color: var(--floral-white);
+}
+
+.fa-brands {
+    font-size: 1.5rem;
+
+}
+
+.download-btn {
+    background-color: var(--soft-fern);
+    border-color: var(--cool-teal);
+    color: var(--indigo-gray);
+    font-weight: 500;
+    outline: var(--cool-teal);
+    width: 125px;
+    
+}
+
+@media (min-width: 768px) {
+    .footer-section-2 {
+        width: 30%;
+    }
+}
+
+@media (min-width:992px) {
+    .personal-info {
+        width: 65%;
+    }
+    .footer-section-2 {
+        /*width: 30%;*/
+    }
 }
