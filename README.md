@@ -8,7 +8,7 @@ This is a portfolio site for my Web Development work. It is designed to present 
 
 ### Project Goals
 
-**Rational**
+**Rational:**
 
 **Business Goals:**
 
