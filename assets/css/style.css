@@ -1,3 +1,59 @@
+* {
+    --charcoal-smoke: #2c2b3c;
+    --floral-white: #fffaf0;
+    --indigo-gray: #3f3d56;
+    --muted-lilac: #b7afc3;
+    --cool-teal: #88bdbc;
+    --mist-mauve: #dcd6f7;
+    --light-gray: #ededed;
+    --steel-blue-gray: #a6a6b2;
+    --soft-fern: #a8d5ba;
+    --dusty-rose: #d77a85;
+}
+
 body {
-    background-color: #fafafa;
+    background-color: var(--charcoal-smoke);
+}
+
+/*------------------------------------------------ Header */
+
+h1 {
+    display: inline-block;
+}
+
+.site-logo,
+.site-title {
+    color: #fffaf0;
+    font-size: calc(1.375rem + 1.5vw);
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.btn-link {
+    color: var(--floral-white);
+    font-size: 1.5rem;
+}
+
+.btn-link:hover {
+    color: var(--dusty-rose);
+}
+
+/*------------------------------------------------ Collapsible Navigation Menu */
+
+.card {
+    background-color: var(--indigo-gray);
+}
+
+/*------------------------------------------------ Navbar (md + lg screens) */
+
+.nav-link {
+    color: var(--floral-white);
+}
+
+.nav-link:hover {
+    color: var(--soft-fern);
+}
+
+.active {
+    color: var(--dusty-rose);
 }
