@@ -1,3 +1,5 @@
+/* ---------------------------------------------------Colours */
+
 * {
     --charcoal-smoke: #2c2b3c;
     --floral-white: #fffaf0;
@@ -12,6 +14,8 @@
     --orange-web: #fead34;
     --dusty-rose: #d77a85;
 }
+
+/* ---------------------------------------------------Whole Page */
 
 body {
     background-color: var(--charcoal-smoke);
@@ -35,7 +39,7 @@ h1 {
 
 .site-logo,
 .site-title {
-    color: #fffaf0;
+    color: var(--floral-white);
     font-size: calc(1.375rem + 1.5vw);
     margin-top: 0;
     margin-bottom: .5rem;
@@ -90,9 +94,16 @@ h6 {
     color: var(--floral-white);
 }
 
+.location a {
+    cursor: none;
+}
+
+.social-links a:hover {
+    color: #0b5ed7; /* bs-btn-hover-bg*/
+}
+
 .fa-brands {
     font-size: 1.5rem;
-
 }
 
 .btn-primary {
@@ -139,7 +150,7 @@ h6 {
 }
 
 .modal-body {
-    background-color: rgba(183, 175, 195, 0.1);
+    background-color: rgba(183, 175, 195, 0.1); /* Muted Lilac*/
 }
 
 .form-label, .form-control, .form-text {
@@ -149,6 +160,7 @@ h6 {
 .btn-secondary {
     background-color: var(--steel-blue-gray);
     border-color: var(--steel-blue-gray);
+    color: var(--floral-white);
 }
 
 .was-validated .form-control:invalid {
