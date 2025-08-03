@@ -93,7 +93,7 @@ h6 {
 
 }
 
-.download-btn {
+.btn-primary {
     background-color: var(--soft-fern);
     border-color: var(--cool-teal);
     color: var(--indigo-gray);
@@ -104,16 +104,19 @@ h6 {
 }
 
 @media (min-width: 768px) {
-    .footer-section-2 {
-        width: 30%;
+    .social-links,
+    .download-btn {
+        width: 150px;
+        margin-left: auto;
+        margin-right: 1rem;
     }
 }
 
-@media (min-width:992px) {
-    .personal-info {
-        width: 65%;
+@media (min-width:1200px) {
+    .email-address {
+        width: 40%;
     }
-    .footer-section-2 {
-        /*width: 30%;*/
+    .telephone {
+        width: 30%;
     }
 }
