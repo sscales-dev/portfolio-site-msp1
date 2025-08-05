@@ -176,6 +176,10 @@ h6 {
 }
 
 @media (min-width:1200px) {
+    .footer {
+        margin: 0;
+        width: 100%;
+    }
     .footer-2 {
         margin-top: 0;
         align-items: flex-end;
