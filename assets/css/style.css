@@ -30,6 +30,10 @@ body {
     width: 100%;
 }
 
+section {
+   height: 100%; 
+}
+
 a {
     text-decoration: none;
 }
@@ -46,8 +50,15 @@ a, i, p {
 
 header {
     background-color: var(--charcoal-smoke);
+    height: 12.5vh;  
+    margin-bottom: 2rem;
     position: sticky;
     top: 0;
+}
+
+.main-heading {
+    height: 100%;
+    
 }
 
 .site-logo,
@@ -60,6 +71,17 @@ header {
 
 .btn-link:hover {
     color: var(--orange-web);
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 10vh;
+    }
+}
+@media (min-width: 768px) {
+    header {
+        height: 15vh;
+    }
 }
 
 /*------------------------------------------------ Collapsible Navigation Menu */
@@ -102,7 +124,7 @@ h6 {
 }
 
 .social-links {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-top: 1rem;
     width: 150px;  
 }
@@ -234,10 +256,6 @@ h6 {
 
 /*------------------------------------------------ About */
 
-section {
-    height: 100%;
-}
-
 .about-me-section {
     margin-bottom: 2.5rem;
     margin-top: .75rem;
@@ -329,7 +347,7 @@ section {
     .about-me-section {
         height: 55vh;
         margin-top: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2.5rem;
     }
 
     .about-me,
@@ -361,8 +379,8 @@ section {
 @media (min-width:1200px) {
     .about-me-section {
         height: 60vh;
-        margin-top: 7rem;
-        margin-bottom: 2.5rem;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
     }
     .about-me,
     .about-me-heading {
