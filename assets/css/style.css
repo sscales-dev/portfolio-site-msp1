@@ -342,7 +342,7 @@ section {
     }
 
     .about-me-text {
-        margin: auto;
+        margin: 1rem 0;
         padding-left: 0;
         padding-right: 1rem;
     }
