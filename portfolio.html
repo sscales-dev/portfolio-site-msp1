@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="" />
+
+    <title>Sam Scales | Full Stack Developer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/7065d2bf4f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="d-flex justify-content-between align-items-center">
+        <a class="site-title my-4 ms-4" href="index.html">
+            <i class="fa-solid fa-code site-logo pe-3"></i><h1>Sam Scales</h1>
+        </a>
+        <button class="d-md-none btn btn-link my-4 me-3" type="button" title="nav-toggle-btn" data-bs-toggle="collapse" data-bs-target="#nav-toggle-btn" aria-expanded="false" aria-controls="nav-toggle-btn">
+            <i class="fa-solid fa-bars nav-btn"></i>
+        </button>
+        <ul class="nav d-none d-md-flex nav justify-content-end my-3 me-4">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
+            </li>
+        </ul>
+      </div>
+    </header>
+    <div class="collapse" id="nav-toggle-btn">
+        <div class="card card-body">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section></section>
+    <footer class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-8 footer-section-1">
+                <div class="row">
+                    <div class="col-12 col-xl-4 mb-3 text-nowrap personal-info email-address">
+                        <h6 class="px-2">Email:</h6>
+                        <a href="mailto:scales.samantha@outlook.com">scales.samantha@outlook.com</a>
+                    </div>
+                    <div class="col-12 col-xl-3 mb-3 text-nowrap personal-info telephone">
+                        <h6 class="px-2">Telephone:</h6>
+                        <a href="tel:+447301148142">+447301 148142</a>
+                    </div>
+                    <div class="col-12 col-xl-3 mb-3 text-nowrap personal-info location">
+                        <h6 class="px-2">Location:</h6>
+                        <a href="#">SE4 2AB</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 footer-section-2">
+                <div class="row">
+                    <div class="col-12 col-xl-8 mb-3 social-links">
+                        <a href="">
+                            <i class="fa-brands fa-instagram mx-2 pt-2"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin mx-2 pt-2"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-github mx-2 pt-2"></i>
+                        </a>
+                    </div>
+                    <div class="col-12 col-xl-4 mb-3 download-btn">
+                        <a href="/docs/resume-sscales.docx" target="_blank" role="button" class="btn btn-primary">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="contact-modal-label">Contact Me</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark fs-5"></i></button>
+            </div>
+            <div class="modal-body">
+                <form id="contact-form" action="/index.html" class="was-validated">
+                    <div class="mb-3">
+                        <label for="sender-name" class="form-label">Your Name:</label>
+                        <input type="text" class="form-control" id="sender-name" name="sender-name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="sender-email-address" class="form-label">Email address:</label>
+                        <input type="email" class="form-control" id="sender-email-address" name="sender-email-address" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="sender-message" class="form-label">Message:</label>
+                        <textarea class="form-control" id="sender-message" name="sender-message" rows="5" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary" form="contact-form" value="submit">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous" ></script>
+  </body>
+</html>

@@ -382,11 +382,6 @@ section {
 }
 
 @media (min-width:1400px) {
-    .about-me-section {
-        margin-top: 8rem;
-        margin-bottom: 3rem;
-    }
-
     .about-me,
     .about-me-heading {
         width: 65%;
