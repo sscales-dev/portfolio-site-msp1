@@ -22,9 +22,9 @@
     <header>
       <div class="d-flex justify-content-between align-items-center">
         <a class="site-title my-4 ms-4" href="index.html">
-            <i class="fa-solid fa-code site-logo pe-3"></i><h1>Sam Scales</h1>
+            <i class="fa-solid fa-code site-logo pe-3"></i><h1 class="d-inline-block">Sam Scales</h1>
         </a>
-        <button class="d-md-none btn btn-link my-4 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggle-btn" aria-expanded="false" aria-controls="nav-toggle-btn">
+        <button class="d-md-none btn btn-link my-4 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
             <i class="fa-solid fa-bars nav-btn"></i>
         </button>
         <ul class="nav d-none d-md-flex nav justify-content-end my-3 me-4">
@@ -43,7 +43,7 @@
         </ul>
       </div>
     </header>
-    <div class="collapse" id="nav-toggle-btn">
+    <div class="collapse" id="nav-toggle-menu">
         <div class="card card-body">
             <ul class="nav flex-column">
                 <li class="nav-item">
@@ -93,40 +93,66 @@
         </div>
     </div>
     <section>
-
-    </section>
-    <footer class="container-fluid">
-        <div class="row align-items-center">
-            <div class="col-12 col-md-8 footer-section-1">
-                <div class="row">
-                    <div class="col-12 col-xl-4 mb-3 text-nowrap personal-info email-address">
-                        <h6 class="px-2">Email:</h6>
-                        <a href="mailto:scales.samantha@outlook.com" aria-label="Email Address">scales.samantha@outlook.com</a>
-                    </div>
-                    <div class="col-12 col-xl-3 mb-3 text-nowrap personal-info telephone">
-                        <h6 class="px-2">Telephone:</h6>
-                        <a href="tel:+447301148142" aria-label="Telephone Number">+447301 148142</a>
-                    </div>
-                    <div class="col-12 col-xl-3 mb-3 text-nowrap personal-info location">
-                        <h6 class="px-2">Location:</h6>
-                        <a href="#" aria-label="Location">SE4 2AB</a>
+        <div class="container-fluid about-me-section px-3">
+            <h2 class="about-me-heading mx-auto ps-2">About Me</h2>
+            <div class="row about-me mx-auto">
+                <div class="col-12 col-lg-4 d-flex about-me-image justify-content-center align-items-center">
+                    <img class="profile-image d-md-none m-0 p-0" src="/assets/images/profile-sm.jpg" width="75%" height="95%">
+                    <img class="profile-image d-none d-md-block d-lg-none m-0 p-0" src="/assets/images/profile-md.jpg" width="70%" height="85%">
+                    <img class="profile-image d-none d-lg-block d-xl-none m-0 p-0" src="/assets/images/profile-lg.webp" width="95%" height="100%">
+                    <img class="profile-image d-none d-lg-none d-xl-block m-0 p-0" src="/assets/images/profile-xl.webp" width="95%" height="100%">
+                </div>
+                <div class="col-12 col-lg-8 d-lg-flex flex-column justify-content-end justify-content-xl-center about-me-content">
+                    <p class="row about-me-text">Etiam elit mi, suscipit at tempus sed, vehicula vitae elit. 
+                        Maecenas molestie justo ante, nec pulvinar elit gravida et. Curabitur lacinia finibus augue, 
+                        id blandit enim laoreet id. Donec et molestie libero. Vivamus placerat mauris in aliquet interdum. 
+                        Nulla ac facilisis ex, in euismod massa.</p>
+                    <div class="row languages">
+                        <div class="col-12 col-md-4 d-flex align-items-center"><i class="fa-brands fa-html5 mx-2"></i><p class="d-inline-block">HTML5</p></div>
+                    
+                        <div class="col-12 col-md-4 d-flex align-items-center"><i class="fa-brands fa-css3 mx-2"></i><p class="d-inline-block">CSS3</p></div>
+                        
+                        <div class="col-12 col-md-4 d-flex align-items-center"><i class="fa-brands fa-bootstrap mx-2"></i><p class="d-inline-block">Bootstrap</p></div>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 footer-section-2">
-                <div class="row">
-                    <div class="col-12 col-xl-8 mb-3 social-links">
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row d-lg-flex justify-content-lg-between align-items-lg-start align-items-xl-center">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-8">
+                <div class="container-fluid">
+                    <div class="row footer-1">
+                        <div class="col-12 col-xl-4 text-nowrap personal-info email-address">
+                            <h6 class="px-2">Email:</h6>
+                            <a href="mailto:scales.samantha@outlook.com" aria-label="Email Address">scales.samantha@outlook.com</a>
+                        </div>
+                        <div class="col-12 col-xl-4 text-nowrap personal-info telephone">
+                            <h6 class="px-2">Telephone:</h6>
+                            <a href="tel:+447301148142" aria-label="Telephone Number">+447301 148142</a>
+                        </div>
+                        <div class="col-12 col-xl-3 text-nowrap personal-info location">
+                            <h6 class="px-2">Location:</h6>
+                            <a href="#" aria-label="Location">SE4 2AB</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-md-4 col-lg-6 col-xl-4">
+                <div class="row d-lg-flex footer-2">
+                    <div class="col-12 col-lg-6 col-xl-8 social-links">
                         <a href="" aria-label="Link to Instagram Profile">
-                            <i class="fa-brands fa-instagram mx-2 pt-2"></i>
+                            <i class="fa-brands fa-instagram mx-2"></i>
                         </a>
                         <a href="" aria-label="Link to LinkedIn Profile">
-                            <i class="fa-brands fa-linkedin mx-2 pt-2"></i>
+                            <i class="fa-brands fa-linkedin mx-2"></i>
                         </a>
                         <a href="" aria-label="Link to GitHub Profile">
-                            <i class="fa-brands fa-github mx-2 pt-2"></i>
+                            <i class="fa-brands fa-github mx-2"></i>
                         </a>
                     </div>
-                    <div class="col-12 col-xl-4 mb-3 download-btn">
+                    <div class="col-12 col-lg-6 col-xl-4 download-cv">
                         <a href="/docs/resume-sscales.docx" target="_blank" role="button" class="btn btn-primary"></i>Download CV</a>
                     </div>
                 </div>
