@@ -357,8 +357,8 @@ section {
 @media (min-width:1200px) {
     .about-me-section {
         height: 60vh;
-        margin-top: 7.5rem;
-        margin-bottom: 3rem;
+        margin-top: 7rem;
+        margin-bottom: 2.5rem;
     }
     .about-me,
     .about-me-heading {
@@ -379,7 +379,7 @@ section {
 
 @media (min-width:1400px) {
     .about-me-section {
-        margin-top: 7rem;
+        margin-top: 8rem;
         margin-bottom: 3rem;
     }
 
