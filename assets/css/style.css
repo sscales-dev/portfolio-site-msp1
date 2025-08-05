@@ -90,6 +90,7 @@ h6 {
 
 .footer-2 {
     align-items: flex-start;
+    padding-left: 1rem;
 }
 
 .personal-info {
@@ -101,7 +102,7 @@ h6 {
 }
 
 .social-links {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     margin-top: 1rem;
     width: 150px;  
 }
@@ -126,6 +127,11 @@ h6 {
 }
 
 @media (min-width: 768px) {
+    .footer {
+        margin: 0 auto;
+        padding: 0;
+        width: 95%;
+    }
     .social-links,
     .download-cv {
         width: 150px;
@@ -140,18 +146,33 @@ h6 {
         margin-left: auto;
         margin-right: 1.5rem;
     }
+
+    .personal-info {
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media (min-width: 992px) {
-    .social-links,
-    .download-cv {
-        margin: auto 1rem;
-    }
-
     .footer-2 {
+        margin-left: 0;
         margin-top: .5rem;
         justify-content: flex-end;
     }
+
+    .social-links,
+    .download-cv {
+        margin: auto 0;
+    }
+
+    .download-cv {
+        margin-right: 1.5rem;
+        padding: 0 .3rem;
+    }
+
+    .personal-info {
+        margin-bottom: 0.5rem;
+    }
+
 }
 
 @media (min-width:1200px) {
@@ -220,7 +241,7 @@ section {
 
 .about-me,
 .about-me-heading {
-    width: 90%;
+    width: 85%;
 }
 
 .about-me {
@@ -243,8 +264,8 @@ section {
 
 .about-me-text,
 .languages {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1rem;
 }
 
 .languages div {
@@ -303,7 +324,7 @@ section {
 @media (min-width:992px) {
     .about-me-section {
         height: 55vh;
-        margin-top: .75rem;
+        margin-top: 1rem;
         margin-bottom: 2rem;
     }
 
@@ -335,8 +356,9 @@ section {
 
 @media (min-width:1200px) {
     .about-me-section {
-        margin-top: 4rem;
-        margin-bottom: 6rem;
+        height: 60vh;
+        margin-top: 7.5rem;
+        margin-bottom: 4.25rem;
     }
     .about-me,
     .about-me-heading {
@@ -357,9 +379,8 @@ section {
 
 @media (min-width:1400px) {
     .about-me-section {
-        margin: auto 0;
-        margin-top: 6rem;
-        margin-bottom: 7rem;
+        margin-top: 7rem;
+        margin-bottom: 3rem;
     }
 
     .about-me,
