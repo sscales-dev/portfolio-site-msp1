@@ -16,10 +16,6 @@
 
 }
 
-.card {
-    background-color: var(--indigo-gray);
-}
-
 /* ---------------------------------------------------Whole Page */
 
 body {
@@ -42,12 +38,22 @@ a, i, p {
     color: var(--floral-white);
 }
 
+.card {
+    background-color: var(--indigo-gray);
+}
+
+.content-box {
+    border: 1px solid var(--indigo-gray);
+    border-radius: .5rem;
+    background-color: rgba(183, 175, 195, .4); /*muted lilac*/
+}
+
 /*------------------------------------------------ Header */
 
 header {
     background-color: var(--charcoal-smoke);
     height: 12.5vh;  
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     position: sticky;
     top: 0;
 }
@@ -130,7 +136,7 @@ h6 {
 }
 
 .download-cv {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .btn-primary {
@@ -180,7 +186,6 @@ h6 {
 
 @media (min-width: 992px) {
     .footer {
-        position: relative;
         margin-bottom: .5rem;
     }
     .footer-2 {
@@ -277,9 +282,6 @@ h6 {
 }
 
 .about-me {
-    border: 1px solid var(--indigo-gray);
-    border-radius: .5rem;
-    background-color: rgba(255, 250, 240, .2); /*floral white*/
     padding-bottom: .5rem;
     padding-top: 1.5rem;
 }
@@ -332,9 +334,7 @@ h6 {
 
 @media (min-width: 768px) {
     .about-me-section {
-        height: 65vh;
-        margin-top: 5rem ;
-        margin-bottom: 5rem ;
+        margin-top: 6rem;
     }
 
     .about-me,
@@ -355,9 +355,7 @@ h6 {
 
 @media (min-width:992px) {
     .about-me-section {
-        height: 55vh;
         margin-top: 1rem;
-        margin-bottom: 2.5rem;
     }
 
     .about-me,
@@ -388,9 +386,7 @@ h6 {
 
 @media (min-width:1200px) {
     .about-me-section {
-        height: 60vh;
-        margin-top: 6rem;
-        margin-bottom: 2rem;
+        margin-top: 5rem;
     }
     .about-me,
     .about-me-heading {
@@ -428,9 +424,6 @@ h6 {
 }
 
 .skills-list {
-    border: 1px solid var(--indigo-gray);
-    border-radius: .5rem;
-    background-color: rgba(255, 250, 240, .2); /*floral white*/
     height: 200px;
     padding-left: 2.5rem;
     padding-top: 1rem;
