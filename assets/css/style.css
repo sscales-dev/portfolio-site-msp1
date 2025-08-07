@@ -2,10 +2,9 @@
 
 * {
     --charcoal-smoke: #2c2b3c;
-    --floral-white: #fffaf0;
     --indigo-gray: #3f3d56;
+    --floral-white: #fffaf0;
     --muted-lilac: #b7afc3;
-    --cool-teal: #88bdbc;
     --mist-mauve: #dcd6f7;
     --light-gray: #ededed;
     --french-gray: #BAC7D6;
@@ -437,7 +436,7 @@ h6 {
 }
 
 .badge {
-    color: var(--indigo-gray);
+    color: var(--charcoal-smoke);
     float: right;
 }
 
@@ -446,11 +445,11 @@ h6 {
 }
 
 .badge-beginner {
-    background-color: #EB9FEF;
+    background-color: #7da4f2;
 }
 
 .badge-intermediate {
-    background-color: #66C3FF;
+    background-color: #ebb750;
 }
 
 @media (min-width: 768px) {
