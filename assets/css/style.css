@@ -89,7 +89,7 @@ header {
 }
 
 .nav-link:hover { /* change color */
-    color: #0b5ed7;
+    color: var(--dusty-rose);
 }
 
 .active {
@@ -126,7 +126,7 @@ h6 {
 }
 
 .social-links a i:hover {
-    color: #0b5ed7; /* change color */
+    color: var(--dusty-rose); /* change color */
 }
 
 .download-cv {
@@ -142,6 +142,12 @@ h6 {
     outline: var(--cool-teal);
     width: 125px;
     
+}
+
+.btn-primary:hover {
+    background-color: var(--dusty-rose);
+    border-color: var(--french-gray);
+    color: var(--floral-white)
 }
 
 @media (min-width: 768px) {
