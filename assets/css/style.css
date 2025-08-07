@@ -30,10 +30,6 @@ body {
     width: 100%;
 }
 
-section {
-   height: 100%; 
-}
-
 a {
     text-decoration: none;
 }
@@ -78,7 +74,7 @@ header {
         height: 10vh;
     }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     header {
         height: 15vh;
     }
@@ -150,7 +146,9 @@ h6 {
 
 @media (min-width: 768px) {
     .footer {
-        margin: 0 auto;
+        position: fixed;
+        bottom: 0;
+        margin: 0 1rem;
         padding: 0;
         width: 95%;
     }
@@ -175,6 +173,10 @@ h6 {
 }
 
 @media (min-width: 992px) {
+    .footer {
+        position: relative;
+        margin-bottom: .5rem;
+    }
     .footer-2 {
         margin-left: 0;
         margin-top: .5rem;
@@ -199,7 +201,9 @@ h6 {
 
 @media (min-width:1200px) {
     .footer {
-        margin: 0;
+        position: fixed;
+        bottom: 0;
+        margin: 1rem 0;
         width: 100%;
     }
     .footer-2 {
@@ -403,5 +407,82 @@ h6 {
     .about-me,
     .about-me-heading {
         width: 65%;
+    }
+}
+
+/*------------------------------------------------ Skills    */
+
+.skills {
+    margin: 0 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.skills div i {
+    font-size: 1rem;
+}
+
+.skills-list {
+    border: 1px solid var(--indigo-gray);
+    border-radius: .5rem;
+    background-color: rgba(255, 250, 240, .2); /*floral white*/
+    height: 200px;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 90%;
+}
+
+.list-item {
+    line-height: 2rem;
+    width: 250px;
+}
+
+.badge {
+    color: var(--indigo-gray);
+    float: right;
+}
+
+.badge-not-started {
+    background-color: var(--steel-blue-gray);
+}
+
+.badge-beginner {
+    background-color: #EB9FEF;
+}
+
+.badge-intermediate {
+    background-color: #66C3FF;
+}
+
+@media (min-width: 768px) {
+    .front-end,
+    .back-end {
+        width: 42.5%;
+    }
+
+    .skills-list {
+        width: 50%;
+    }
+
+    .front-end .skills-list,
+    .back-end .skills-list {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .skills-section {
+        margin: 5rem 0;
+        padding: 0 4rem;
+    }
+    .skills {
+        width: 33.33%;
+        margin: 0 0;
+    }
+
+    .skills-list,
+    .front-end .skills-list,
+    .back-end .skills-list {
+        width: 75%;
     }
 }

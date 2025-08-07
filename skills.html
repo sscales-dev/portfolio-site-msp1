@@ -21,10 +21,10 @@
   <body>
     <header>
         <div class="d-flex justify-content-between align-items-center">
-            <a class="site-title my-4 ms-4" href="index.html">
-                <i class="fa-solid fa-code site-logo pe-3"></i><h1 class="d-inline-block">Sam Scales</h1>
+            <a class="d-flex flex-nowrap site-title my-4 ms-4" href="index.html">
+                <i class="fa-solid fa-code site-logo pe-3"></i><h1 class="d-inline-block text-nowrap">Sam Scales</h1>
             </a>
-            <button class="d-md-none btn btn-link my-4 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
+            <button class="d-md-none btn btn-link my-4 me-3" type="button" title="Navigation Menu Toggle" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
                 <i class="fa-solid fa-bars nav-btn"></i>
             </button>
             <ul class="nav d-none d-md-flex nav justify-content-end my-3 me-4">
@@ -93,9 +93,69 @@
         </div>
     </div>
     <section>
-        <div class="container-fluid skills-section px-3">
-            <h2 class="about-me-heading mx-auto ps-2">Skills</h2>
-            
+        <div class="container-fluid skills-section">
+            <div class="row">
+                <div class="col-12 col-xl-4 skills">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-star-of-life me-3 pt-1"></i><h2 class="d-inline-block skills-heading my-0">Key Skills</h2>
+                    </div>
+                    <ul class="skills-list">
+                        <li class="list-item">Good communicator</li>
+                        <li class="list-item">Understanding of UX principles</li>
+                        <li class="list-item"></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 skills front-end">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-tv me-3 pt-1"></i><h2 class="d-inline-block skills-heading my-0">Front-end</h2>
+                    </div>
+                    <ul class="skills-list">
+                        <li class="list-item">
+                            HTML5
+                            <span class="badge badge-intermediate my-1">Intermediate</span>
+                        </li>
+                        <li class="list-item">
+                            CSS3
+                            <span class="badge badge-intermediate my-1">Intermediate</span>
+                        </li>
+                        <li class="list-item">
+                            Bootstrap
+                            <span class="badge badge-intermediate my-1">Intermediate</span>
+                        </li>
+                        <li class="list-item">
+                            JavaScript
+                            <span class="badge badge-beginner my-1">Beginner</span>
+                        </li>
+                        <li class="list-item">
+                            Jest
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 skills back-end">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-gears me-3 pt-1"></i><h2 class="d-inline-block skills-heading my-0">Back-end</h2>
+                    </div>
+                    <ul class="skills-list">
+                        <li class="list-item">
+                            Node.js
+                            <span class="badge badge-beginner my-1">Beginner</span>
+                        </li>
+                        <li class="list-item">
+                            Python
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                        <li class="list-item">
+                            Flask
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                        <li class="list-item">
+                            Django
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
     <footer class="container-fluid footer">
