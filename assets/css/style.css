@@ -83,7 +83,7 @@ header {
 
 /*------------------------------------------------ Collapsible Navigation Menu */
 
-#nav-toggle-menu {
+.nav-toggle-menu {
     height: 100vh;
     background-color: rgba(44, 43, 60, 0.6); /* charcoal smoke */
     transition: none;
