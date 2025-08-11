@@ -111,8 +111,7 @@ h6 {
 /*    width: 30%; */
 }
 
-.footer-2 {
-    align-items: flex-start;
+.footer-section-2 {
     padding-left: 1rem;
 }
 
@@ -187,10 +186,9 @@ h6 {
     .footer {
         margin-bottom: .5rem;
     }
-    .footer-2 {
+    .footer-section-2 {
         margin-left: 0;
         margin-top: .5rem;
-        justify-content: flex-end;
     }
 
     .social-links,
@@ -203,9 +201,9 @@ h6 {
         padding: 0 .3rem;
     }
 
-    .personal-info {
+/*    .personal-info {
         margin-bottom: 0.5rem;
-    }
+    }*/
 
 }
 
@@ -216,22 +214,14 @@ h6 {
         margin: 1rem 0;
         width: 100%;
     }
-    .footer-2 {
+    .footer-section-2 {
         margin-top: 0;
         align-items: flex-end;
     }
 
     .personal-info {
         margin: 0;
-        margin-right: .75em;
-    }
-
-    .email-address {
-        width: 40%;
-    }
-
-    .telephone {
-        width: 30%;
+        padding: 0;
     }
 }
 
