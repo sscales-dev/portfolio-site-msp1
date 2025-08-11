@@ -70,7 +70,7 @@ header {
     margin-bottom: .5rem;
 }
 
-.btn-link:hover {
+.btn-link:hover { /* change color */
     color: var(--orange-web);
 }
 
@@ -94,7 +94,7 @@ header {
 }
 
 .nav-link:hover { /* change color */
-    color: var(--dusty-rose);
+    color: #7DA4F2;
 }
 
 .active {
@@ -131,7 +131,7 @@ h6 {
 }
 
 .social-links a i:hover {
-    color: var(--dusty-rose); /* change color */
+    color: #7DA4F2; /* change color */
 }
 
 .download-cv {
@@ -144,13 +144,13 @@ h6 {
     color: var(--indigo-gray);
     font-weight: 500;
     margin-left: .25rem;
-    outline: var(--cool-teal);
+    outline: var(--soft-fern);
     width: 125px;
     
 }
 
 .btn-primary:hover {
-    background-color: var(--dusty-rose);
+    background-color: #7DA4F2; /* change color*/
     border-color: var(--french-gray);
     color: var(--floral-white)
 }
