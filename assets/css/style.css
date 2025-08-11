@@ -37,10 +37,6 @@ a, i, p {
     color: var(--floral-white);
 }
 
-.card {
-    background-color: var(--indigo-gray);
-}
-
 .content-box {
     border: 1px solid var(--indigo-gray);
     border-radius: .5rem;
@@ -86,6 +82,18 @@ header {
 }
 
 /*------------------------------------------------ Collapsible Navigation Menu */
+
+#nav-toggle-menu {
+    height: 100vh;
+    background-color: rgba(44, 43, 60, 0.6); /* charcoal smoke */
+    transition: none;
+}
+
+.card {
+    background-color: var(--indigo-gray);
+    border: 1px solid var(--steel-blue-gray);
+    margin: 0 1rem;
+}
 
 /*------------------------------------------------ Navbar (md + lg screens) */
 
