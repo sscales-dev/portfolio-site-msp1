@@ -20,28 +20,28 @@
   </head>
   <body>
     <header>
-      <div class="d-flex main-heading justify-content-between align-items-center">
-        <a class="d-flex flex-nowrap site-title my-4 ms-4" href="index.html">
-            <i class="fa-solid fa-code site-logo pe-3"></i><h1 class="d-inline-block text-nowrap">Sam Scales</h1>
-        </a>
-        <button class="d-md-none btn btn-link my-4 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
-            <i class="fa-solid fa-bars nav-btn"></i>
-        </button>
-        <ul class="nav d-none d-md-flex justify-content-end my-3 me-4">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
-            </li>
-        </ul>
-      </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <a class="d-flex flex-nowrap site-title my-4 ms-4" href="index.html">
+                <i class="fa-solid fa-code site-logo pe-3"></i><h1 class="d-inline-block text-nowrap">Sam Scales</h1>
+            </a>
+            <button class="d-md-none btn btn-link my-4 me-3" type="button" title="Navigation Menu Toggle" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
+                <i class="fa-solid fa-bars nav-btn"></i>
+            </button>
+            <ul class="nav d-none d-md-flex nav justify-content-end my-3 me-4">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
+                </li>
+            </ul>
+        </div>
     </header>
     <div class="collapse" id="nav-toggle-menu">
         <div class="card card-body">
@@ -93,27 +93,67 @@
         </div>
     </div>
     <section>
-        <div class="container-fluid about-me-section px-3">
-            <h2 class="about-me-heading mx-auto ps-2">About Me</h2>
-            <div class="row about-me content-box mx-auto">
-                <div class="col-12 col-lg-4 d-flex about-me-image justify-content-center align-items-center">
-                    <img class="profile-image d-md-none m-0 p-0" src="assets/images/profile-sm.jpg" alt="Profile picture of Sam" width="80%" height="95%">
-                    <img class="profile-image d-none d-md-block d-lg-none m-0 p-0" src="assets/images/profile-md.jpg"alt="Profile picture of Sam"  width="70%" height="85%">
-                    <img class="profile-image d-none d-lg-block d-xl-none m-0 p-0" src="assets/images/profile-lg.webp" alt="Profile picture of Sam" width="95%" height="100%">
-                    <img class="profile-image d-none d-lg-none d-xl-block m-0 p-0" src="assets/images/profile-xl.webp" alt="Profile picture of Sam" width="95%" height="100%">
-                </div>
-                <div class="col-12 col-lg-8 d-lg-flex flex-column justify-content-end justify-content-xl-center about-me-content">
-                    <p class="row about-me-text">Etiam elit mi, suscipit at tempus sed, vehicula vitae elit. 
-                        Maecenas molestie justo ante, nec pulvinar elit gravida et. Curabitur lacinia finibus augue, 
-                        id blandit enim laoreet id. Donec et molestie libero. Vivamus placerat mauris in aliquet interdum. 
-                        Nulla ac facilisis ex, in euismod massa.</p>
-                    <div class="row languages">
-                        <div class="col-12 col-md-4 d-flex align-items-center"><i class="fa-brands fa-html5 mx-2"></i><p class="d-inline-block">HTML5</p></div>
-                    
-                        <div class="col-12 col-md-4 d-flex align-items-center"><i class="fa-brands fa-css3 mx-2"></i><p class="d-inline-block">CSS3</p></div>
-                        
-                        <div class="col-12 col-md-4 d-flex align-items-center"><i class="fa-brands fa-bootstrap mx-2"></i><p class="d-inline-block">Bootstrap</p></div>
+        <div class="container-fluid skills-section">
+            <div class="row">
+                <div class="col-12 col-xl-4 skills">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-star-of-life me-3 pt-1"></i><h2 class="d-inline-block skills-heading my-0">Key Skills</h2>
                     </div>
+                    <ul class="skills-list content-box">
+                        <li class="list-item">Good communicator</li>
+                        <li class="list-item">Understanding of UX principles</li>
+                        <li class="list-item"></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 skills front-end">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-tv me-3 pt-1"></i><h2 class="d-inline-block skills-heading my-0">Front-end</h2>
+                    </div>
+                    <ul class="skills-list content-box">
+                        <li class="list-item">
+                            HTML5
+                            <span class="badge badge-intermediate my-1">Intermediate</span>
+                        </li>
+                        <li class="list-item">
+                            CSS3
+                            <span class="badge badge-intermediate my-1">Intermediate</span>
+                        </li>
+                        <li class="list-item">
+                            Bootstrap
+                            <span class="badge badge-intermediate my-1">Intermediate</span>
+                        </li>
+                        <li class="list-item">
+                            JavaScript
+                            <span class="badge badge-beginner my-1">Beginner</span>
+                        </li>
+                        <li class="list-item">
+                            Jest
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 skills back-end">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="fa-solid fa-gears me-3 pt-1"></i><h2 class="d-inline-block skills-heading my-0">Back-end</h2>
+                    </div>
+                    <ul class="skills-list content-box">
+                        <li class="list-item">
+                            Node.js
+                            <span class="badge badge-beginner my-1">Beginner</span>
+                        </li>
+                        <li class="list-item">
+                            Python
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                        <li class="list-item">
+                            Flask
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                        <li class="list-item">
+                            Django
+                            <span class="badge badge-not-started my-1">Not Started</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

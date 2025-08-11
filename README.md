@@ -138,6 +138,12 @@ https://www.atlassian.com/agile/project-management/user-stories
 
 ### Code
 
+[Favicon code](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel#icon)
+[Nav](https://getbootstrap.com/docs/5.3/components/navs-tabs/)
+[Collapse btn](https://getbootstrap.com/docs/5.3/components/collapse/)
+[Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works)
+[Forms](https://getbootstrap.com/docs/5.3/forms/overview/)
+[Button Attributes](https://www.w3schools.com/tags/att_button_form.asp)
 ### Content 
 
 
