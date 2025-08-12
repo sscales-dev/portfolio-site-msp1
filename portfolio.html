@@ -20,30 +20,29 @@
   </head>
   <body>
     <header>
-        <div class="d-flex justify-content-between align-items-center">
-            <a class="d-flex flex-nowrap site-title my-4 ms-4" href="index.html">
-                <i class="fa-solid fa-code site-logo pe-3"></i><h1 class="d-inline-block text-nowrap">Sam Scales</h1>
-            </a>
-            <button class="d-md-none btn btn-link my-4 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
-                <i class="fa-solid fa-bars nav-btn"></i>
-            </button>
-            <ul class="nav d-none d-md-flex nav justify-content-end my-3 me-4">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="skills.html">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <div class="collapse" id="nav-toggle-menu">
+      <div class="d-flex main-heading justify-content-between align-items-center">
+        <a class="d-flex flex-nowrap site-title my-4 ms-4" href="index.html">
+            <i class="fa-solid fa-code site-logo pe-3"></i><h1 class="d-inline-block text-nowrap">Sam Scales</h1>
+        </a>
+        <button class="d-md-none btn btn-link my-4 me-3" type="button" title="Navigation Menu" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
+            <i class="fa-solid fa-bars nav-btn"></i>
+        </button>
+        <ul class="nav d-none d-md-flex justify-content-end my-3 me-4">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
+            </li>
+        </ul>
+      </div>
+      <div class="collapse nav-toggle-menu" id="nav-toggle-menu">
         <div class="card card-body">
             <ul class="nav flex-column">
                 <li class="nav-item">
@@ -60,7 +59,8 @@
                 </li>
             </ul>
         </div>
-    </div>
+      </div>
+    </header>
     <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-label" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
@@ -102,12 +102,12 @@
         <div class="row d-lg-flex justify-content-lg-between align-items-md-center">
             <div class="col-12 col-md-8 col-lg-6 col-xl-8">
                 <div class="container-fluid">
-                    <div class="row footer-1">
+                    <div class="row d-xl-flex justify-content-xl-around footer-section-1">
                         <div class="col-12 col-xl-4 text-nowrap personal-info email-address">
                             <h6 class="px-2">Email:</h6>
                             <a href="mailto:scales.samantha@outlook.com" aria-label="Email Address">scales.samantha@outlook.com</a>
                         </div>
-                        <div class="col-12 col-xl-4 text-nowrap personal-info telephone">
+                        <div class="col-12 col-xl-3 text-nowrap personal-info telephone">
                             <h6 class="px-2">Telephone:</h6>
                             <a href="tel:+447301148142" aria-label="Telephone Number">+447301 148142</a>
                         </div>
@@ -120,7 +120,7 @@
                 
             </div>
             <div class="col-12 col-md-4 col-lg-6 col-xl-4">
-                <div class="row d-lg-flex footer-2">
+                <div class="row d-lg-flex justify-content-lg-end align-items-start footer-section-2">
                     <div class="col-12 col-lg-6 col-xl-8 social-links">
                         <a href="" aria-label="Link to Instagram Profile">
                             <i class="fa-brands fa-instagram mx-2"></i>
