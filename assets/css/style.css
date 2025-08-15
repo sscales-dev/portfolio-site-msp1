@@ -162,6 +162,10 @@ h6 {
     color: var(--floral-white)
 }
 
+@media (min-width: 576px) {
+    
+}
+
 @media (min-width: 768px) {
     .footer {
         position: fixed;
