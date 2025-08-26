@@ -144,13 +144,27 @@ https://www.atlassian.com/agile/project-management/user-stories
 [Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works)
 [Forms](https://getbootstrap.com/docs/5.3/forms/overview/)
 [Button Attributes](https://www.w3schools.com/tags/att_button_form.asp)
+
+https://docs.fontawesome.com/web/dig-deeper/accessibility
+https://docs.fontawesome.com/web/style/size
+https://docs.fontawesome.com/web/style/pull
+https://docs.fontawesome.com/web/style/icon-canvas
+
+https://stackoverflow.com/questions/22039910/what-is-aria-label-and-how-should-i-use-it
+
+https://www.w3schools.com/cssref/css_ref_combinators.php
+
+https://www.w3schools.com/jsref/prop_element_classlist.asp
+
+https://www.w3schools.com/css/css3_mediaqueries.asp
+
+https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images
+
 ### Content 
 
+[Image conversion](https://www.adobe.com/express/feature/image/resize/webp)
+https://image.online-convert.com/convert-to-webp
 
 ### Media
-
-?? Rachel Otterway Photography for profile image
-
-https://kinsta.com/blog/modern-fonts/
 
 ### Acknowledgements
