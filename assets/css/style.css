@@ -412,30 +412,6 @@ img {
     margin-bottom: 2rem;
 }
 
-<<<<<<< HEAD
-.btn-primary {
-    background-color: var(--soft-fern);
-    border-color: var(--soft-fern);
-    color: var(--indigo-gray);
-    font-weight: 500;
-    margin-left: .25rem;
-    outline: var(--soft-fern);
-    width: 125px;
-    
-}
-
-.btn-primary:hover {
-    background-color: #7DA4F2; /* change color*/
-    border-color: var(--french-gray);
-    color: var(--floral-white)
-}
-
-@media (min-width: 576px) {
-    
-}
-
-=======
->>>>>>> 72115d0 (Refactored index and skills pages)
 @media (min-width: 768px) {
     footer.container-fluid {
         margin: 2rem 1rem 0;
