@@ -1,4 +1,7 @@
-/* ---------------------------------------------------Colour Palette */
+/*@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');*/
+
+
+/* ---------------------------------------------------Colours */
 
 * {
     --charcoal-smoke: #2c2b3c;
@@ -7,7 +10,7 @@
     --muted-lilac: #b7afc3;
     --mist-mauve: #dcd6f7;
     --light-gray: #ededed;
-    --french-gray: #BAC7D6;
+    --french-gray: #bac7d6;
     --steel-blue-gray: #a6a6b2;
     --soft-fern: #a8d5ba;
     --orange-web: #fead34;
@@ -15,11 +18,52 @@
 
 }
 
-/* ---------------------------------------------------Whole Page */
+:root,
+[data-bs-theme=light] {
+    --bs-form-invalid-color: var(--dusty-rose);
+    --bs-form-invalid-border-color: var(--dusty-rose);
+}
+
+.main-title-color {
+    color: var(--floral-white);
+}
+
+.nav-menu-color {
+    color: var(--floral-white);
+}
+
+.nav-menu-color:hover { 
+    color: #7da4f2; /* change color */
+}
+
+.primary-font-color {
+    color: var(--floral-white);
+}
+
+.section-heading-font-color {
+    color: var(--floral-white);
+}
+
+.section-heading-icon-color {
+    color: var(--floral-white);
+}
+
+.social-links-icon-color {
+    color: var(--floral-white);
+}
+
+.social-links-icon-color:hover {
+    color: #7da4f2; /* change color */
+}
+
+.active {
+    color: var(--orange-web);
+}
+
+/* ---------------------------------------------------Whole Page/ Site */
 
 body {
     background-color: var(--charcoal-smoke);
-    color: var(--floral-white);
     font-family: "Chocolate Classical Sans", sans-serif;
     height: 100%;
     width: 100%;
@@ -29,63 +73,69 @@ a {
     text-decoration: none;
 }
 
-i {
-    font-size: 1.5rem;
+.btn-primary {
+    background-color: var(--soft-fern);
+    border-color: var(--soft-fern);
+    color: var(--charcoal-smoke);
+    font-weight: 500;
+    margin-left: .25rem;
+    outline: var(--soft-fern);
+    width: 125px;
 }
 
-a, i, p {
+.btn-primary:hover {
+    background-color: #7da4f2; /* change color*/
+    border-color: #7da4f2;
     color: var(--floral-white);
+    outline: #7da4f2;
+}
+
+.btn-secondary-color {
+    background-color: var(--steel-blue-gray);
+    border-color: var(--steel-blue-gray);
+    color: var(--floral-white);
+    outline: var(--steel-blue-gray);
 }
 
 .content-box {
+    background-color: rgba(183, 175, 195, .3); /*muted lilac*/
     border: 1px solid var(--indigo-gray);
     border-radius: .5rem;
-    background-color: rgba(183, 175, 195, .4); /*muted lilac*/
+    color: var(--floral-white)
+}
+
+@media (min-width: 768px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+    }
 }
 
 /*------------------------------------------------ Header */
 
 header {
     background-color: var(--charcoal-smoke);
-    height: 12.5vh;  
-    margin-bottom: 1.5rem;
     position: sticky;
     top: 0;
 }
 
-.main-heading {
-    height: 100%;
-    
-}
-
-.site-logo,
 .site-title {
-    color: var(--floral-white);
-    font-size: calc(1.375rem + 1.5vw);
-    margin-top: 0;
-    margin-bottom: .5rem;
+    line-height: 1;
 }
 
-.btn-link:hover { /* change color */
-    color: var(--orange-web);
+.fa-code {
+    padding: .2rem 0;
 }
 
-@media (min-width: 768px) {
-    header {
-        height: 10vh;
-    }
-}
-@media (min-width: 992px) {
-    header {
-        height: 15vh;
-    }
+.nav-btn {
+    padding: .4rem .5rem .5rem;
 }
 
 /*------------------------------------------------ Collapsible Navigation Menu */
 
 .nav-toggle-menu {
-    height: 100vh;
     background-color: rgba(44, 43, 60, 0.6); /* charcoal smoke */
+    height: 100vh;
     transition: none;
 }
 
@@ -95,29 +145,250 @@ header {
     margin: 0 1rem;
 }
 
-/*------------------------------------------------ Navbar (md + lg screens) */
+/*------------------------------------------------ Contact Modal */
 
-.nav-link {
+.modal-title-bar-bg-color {
+    background-color: var(--indigo-gray);
+}
+
+.modal-title-font-color {
     color: var(--floral-white);
 }
 
-.nav-link:hover { /* change color */
-    color: #7DA4F2;
+.form-bg-color {
+    background-color: rgba(183, 175, 195, 0.1); /* Muted Lilac*/
 }
 
-.active {
-    color: var(--orange-web);
+.form-label,
+.form-control,
+.form-text {
+    color: var(--indigo-gray);
+}
+
+/*
+.btn-close {
+    background-image: none;
+}*/
+
+/*------------------------------------------------ About */
+
+.about-me-section {
+    margin: 1rem auto 2.5rem;
+    width: 80%;
+}
+
+.about-me-image {
+    margin: 1.25rem auto 1rem;
+    width: 95%;
+}
+
+img {
+    border-radius: 2rem;
+    padding: .25rem;
+    height: auto;
+    width: 100%;
+}
+
+.about-me-text,
+.languages {
+    margin-bottom: 1rem;
+    padding: 0 .75rem;
+}
+
+.languages div {
+    margin: 1rem 0;
+}
+
+.languages i {
+    background-color: var(--floral-white);
+    border-radius: .3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 30px;
+}
+
+.fa-html5 {
+    color: #DD4B25;
+}
+
+.fa-css3 {
+    color: #1579B8;
+}
+
+.fa-bootstrap {
+    color: #6D2BEF;
+}
+
+@media (min-width: 768px) {
+    .about-me-section {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+    .about-me-section {
+        width: 60%;
+    }
+}
+
+@media (min-width:992px) {
+    .about-me-section {
+        width: 75%;
+    }
+
+    .about-me-section .content-box {
+        padding: 0 0 0 .75rem;
+    }
+
+    .about-me-image {
+        margin: 1.25rem auto;
+        padding: 0 .5rem;
+        width: 33.3333%;
+    }
+
+    .about-me-text {
+        margin: .5rem 0;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .languages {
+        margin: .25rem 0 0;
+    }
+}
+
+@media (min-width:1200px) {
+    .about-me-section {
+        width: 70%;
+    }
+
+    .about-me-content {
+        padding: 0 1rem 0 0;
+    }
+
+    .about-me-image {
+        margin: 1.25rem 0;
+    }
+}
+
+@media (min-width:1400px) {
+    .about-me-section .content-box {
+        padding: 0;
+    }
+
+    .about-me-text {
+        padding-left: .75rem;
+    }
+
+    .languages {
+        padding-left: 0;
+    }
+
+    img {
+        width: 90%;
+    }
+}
+
+/*------------------------------------------------ Skills    */
+
+.skills {
+    margin: 0 1rem 2rem;
+    width: 90%;
+}
+
+.skills-list {
+    height: 200px;
+    padding: 1rem 10% 1rem 2.5rem;
+}
+
+.list-item {
+    line-height: 2rem;
+
+}
+
+.badge {
+    color: var(--charcoal-smoke);
+    float: right;
+    min-width: 90px;
+}
+
+.badge-not-started-bg {
+    background-color: var(--steel-blue-gray);
+}
+
+.badge-beginner-bg {
+    background-color: #7da4f2;
+}
+
+.badge-intermediate-bg {
+    background-color: #ebb750;
+}
+
+@media (orientation: landscape) {
+    .skills-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .skills {
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 768px) and (orientation: portrait) {
+    .skills-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .skills-list {
+        padding: 1rem 7.5% 1rem 12.5%;
+    }
+}
+
+@media (orientation: landscape), (min-width: 768px) and (orientation: portrait) {
+    .skills-section .row {
+        margin-left: .5rem;
+    }
+
+    .skills {
+        margin: 0 0 .5rem 1rem;
+        width: 45%;
+    }
+}
+
+@media (min-width: 992px) and (orientation: landscape) {
+    .skills-section {
+        padding-left: 0;
+        padding-right: 0;
+        width: 95%;
+    }
+
+    .skills-section .row {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0;
+        
+    }
+
+    .skills {
+        margin: 0;
+        padding-left: 0;
+        width: 30%;
+    }
+}
+
+@media (min-width: 1200px) and (orientation: landscape) {
+    .skills-section {
+        padding-right: 1rem;
+    }
+
+    .skills-list {
+        padding: 1rem 7.5% 1rem 12.5%;
+    }
 }
 
 /*------------------------------------------------ Footer */
-
-h6 {
-    color: var(--floral-white);
-    display: inline-block;
-    margin: 0;
-/*    text-align: right; */
-/*    width: 30%; */
-}
 
 .footer-section-2 {
     padding-left: 1rem;
@@ -137,14 +408,11 @@ h6 {
     width: 150px;  
 }
 
-.social-links a i:hover {
-    color: #7DA4F2; /* change color */
-}
-
 .download-cv {
     margin-bottom: 2rem;
 }
 
+<<<<<<< HEAD
 .btn-primary {
     background-color: var(--soft-fern);
     border-color: var(--soft-fern);
@@ -166,323 +434,59 @@ h6 {
     
 }
 
+=======
+>>>>>>> 72115d0 (Refactored index and skills pages)
 @media (min-width: 768px) {
-    .footer {
-        position: fixed;
-        bottom: 0;
-        margin: 0 1rem;
+    footer.container-fluid {
+        margin: 2rem 1rem 0;
         padding: 0;
-        width: 95%;
     }
+
+    .footer-section-1 {
+        margin-left: -1.5rem;
+    }
+
+    .footer-section-2 {
+        padding-right: 2rem;
+    }
+
     .social-links,
     .download-cv {
         width: 150px;
     }
 
     .social-links {
+        margin-bottom: .5rem;
         margin-left: auto;
-        margin-right: 1rem;
+        margin-top: .25rem;
     }
 
     .download-cv {
-        margin-left: auto;
-        margin-right: 1.5rem;
+        margin: .5rem .5rem 1.5rem auto;
     }
 
     .personal-info {
-        margin-bottom: 0.5rem;
+        margin-bottom: .5rem;
     }
 }
 
 @media (min-width: 992px) {
-    .footer {
-        margin-bottom: .5rem;
-    }
-    .footer-section-2 {
-        margin-left: 0;
-        margin-top: .5rem;
-    }
-
     .social-links,
     .download-cv {
         margin: auto 0;
     }
 
     .download-cv {
-        margin-right: 1.5rem;
         padding: 0 .3rem;
     }
-
-/*    .personal-info {
-        margin-bottom: 0.5rem;
-    }*/
-
 }
 
 @media (min-width:1200px) {
-    .footer {
-        position: fixed;
-        bottom: 0;
-        margin: 1rem 0;
-        width: 100%;
-    }
-    .footer-section-2 {
-        margin-top: 0;
-        align-items: flex-end;
+    .footer-section-1 {
+        margin-left: -3rem;
     }
 
     .personal-info {
-        margin: 0;
-        padding: 0;
-    }
-}
-
-/*------------------------------------------------ Contact Modal */
-
-.modal-header,
-.modal-footer {
-    background-color: var(--indigo-gray);
-}
-
-.modal-title, .btn-close i {
-    color: var(--floral-white);
-}
-
-.btn-close {
-    background-image: none;
-}
-
-.modal-body {
-    background-color: rgba(183, 175, 195, 0.1); /* Muted Lilac*/
-}
-
-.form-label, .form-control, .form-text {
-    color: var(--indigo-gray);
-}
-
-.btn-secondary {
-    background-color: var(--steel-blue-gray);
-    border-color: var(--steel-blue-gray);
-    color: var(--floral-white);
-}
-
-.was-validated .form-control:invalid {
-    border-color: var(--dusty-rose);
-}
-
-/*------------------------------------------------ About */
-
-.about-me-section {
-    margin-bottom: 2.5rem;
-    margin-top: .75rem;
-}
-
-.about-me,
-.about-me-heading {
-    width: 85%;
-}
-
-.about-me {
-    padding-bottom: .5rem;
-    padding-top: 1.5rem;
-}
-
-.profile-image {
-    border: 1px solid var(--steel-blue-gray);
-    border-radius: 1rem;
-}
-
-.about-me-text {
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-}
-
-.about-me-text,
-.languages {
-    margin-left: 1.25rem;
-    margin-right: 1rem;
-}
-
-.languages div {
-    margin-bottom: 1.5rem;
-    padding: 0;
-}
-
-.languages i {
-    background-color: var(--floral-white);
-    border-radius: .3rem;
-    margin-bottom: 0;
-    text-align: center;
-    width: 30px;
-}
-
-.fa-html5 {
-    color: #DD4B25;
-}
-
-.fa-css3 {
-    color: #1579B8;
-}
-
-.fa-bootstrap {
-    color: #6D2BEF;
-}
-
-.languages p {
-    margin-bottom: 0;
-    padding-left: .2rem;
-}
-
-@media (min-width: 768px) {
-    .about-me-section {
-        margin-top: 6rem;
-    }
-
-    .about-me,
-    .about-me-heading {
-        width: 65%;
-
-    }
-
-    .about-me-image {
-        height: 25%;
-    }
-
-    .about-me-text {
-        margin-bottom: 1.75rem;
-    }
-
-}
-
-@media (min-width:992px) {
-    .about-me-section {
-        margin-top: 1rem;
-    }
-
-    .about-me,
-    .about-me-heading {
-        width: 80%;
-    }
-
-    .about-me {
-        padding-bottom: 1.5rem;
-    }
-    
-    .about-me-image {
-        padding-left: 1.5rem;
-    }
-
-    .about-me-text {
-        margin: 1rem 0;
-        padding-left: 0;
-        padding-right: 1rem;
-    }
-
-    .languages div {
-        margin-bottom: 1rem;
-    }
-
-    
-}
-
-@media (min-width:1200px) {
-    .about-me-section {
-        margin-top: 5rem;
-    }
-    .about-me,
-    .about-me-heading {
-        width: 75%;
-    }
-
-    .about-me-text {
-        margin: 1rem 1rem 1.5rem;
-    }
-
-    .languages {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        
-    }
-
-}
-
-@media (min-width:1400px) {
-    .about-me,
-    .about-me-heading {
-        width: 65%;
-    }
-}
-
-/*------------------------------------------------ Skills    */
-
-.skills {
-    margin: 0 1.5rem;
-    margin-bottom: 2rem;
-}
-
-.skills div i {
-    font-size: 1rem;
-}
-
-.skills-list {
-    height: 200px;
-    padding-left: 2.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 90%;
-}
-
-.list-item {
-    line-height: 2rem;
-    width: 250px;
-}
-
-.badge {
-    color: var(--charcoal-smoke);
-    float: right;
-}
-
-.badge-not-started {
-    background-color: var(--steel-blue-gray);
-}
-
-.badge-beginner {
-    background-color: #7da4f2;
-}
-
-.badge-intermediate {
-    background-color: #ebb750;
-}
-
-@media (min-width: 768px) {
-    .front-end,
-    .back-end {
-        width: 42.5%;
-    }
-
-    .skills-list {
-        width: 50%;
-    }
-
-    .front-end .skills-list,
-    .back-end .skills-list {
-        width: 100%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .skills-section {
-        margin: 5rem 0;
-        padding: 0 4rem;
-    }
-    .skills {
-        width: 33.33%;
-        margin: 0 0;
-    }
-
-    .skills-list,
-    .front-end .skills-list,
-    .back-end .skills-list {
-        width: 75%;
+        margin-bottom: 0;
     }
 }
