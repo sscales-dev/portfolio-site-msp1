@@ -6,7 +6,7 @@
 * {
     --charcoal-smoke: #2c2b3c;
     --indigo-gray: #3f3d56;
-    --floral-white: #fffaf0;
+    --floral-white: rgb(255, 250, 240);
     --muted-lilac: #b7afc3;
     --mist-mauve: #dcd6f7;
     --light-gray: #ededed;
@@ -101,7 +101,10 @@ a {
     background-color: rgba(183, 175, 195, .3); /*muted lilac*/
     border: 1px solid var(--indigo-gray);
     border-radius: .5rem;
-    color: var(--floral-white)
+/*    box-shadow: rgba(255, 250, 240, 0.06) 0px 0px .25rem .25rem;*/
+    color: var(--floral-white);
+    margin: 0 1rem 2rem;
+    width: 90%;
 }
 
 @media (min-width: 768px) {
@@ -291,11 +294,6 @@ img {
 
 /*------------------------------------------------ Skills    */
 
-.skills {
-    margin: 0 1rem 2rem;
-    width: 90%;
-}
-
 .skills-list {
     height: 200px;
     padding: 1rem 10% 1rem 2.5rem;
@@ -387,6 +385,9 @@ img {
         padding: 1rem 7.5% 1rem 12.5%;
     }
 }
+
+/*------------------------------------------------ Projects */
+
 
 /*------------------------------------------------ Footer */
 
