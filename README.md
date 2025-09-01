@@ -86,7 +86,7 @@ As a recruiter, I want to source a suitable candidate for the position of Full S
 ### Frameworks, Libraries & Programs Used
 
 - Bootstrap
-- Hover.css
+- [Hover.css](https://github.com/IanLunn/Hover)
 - Google Fonts
 - Font Awesome
 - VS Code
