@@ -195,6 +195,10 @@ header {
     border-radius: 0.5rem;
 }
 
+.content-box-text {
+    font-size: 15px;
+}
+
 /*------------------------------------------------ About */
 
 .profile-picture {
@@ -297,11 +301,6 @@ header {
 
 .project-image {
     width: 95%;
-}
-
-.project-text {
-    height: 40%;
-    font-size: 15px;
 }
 
 @media (min-width: 576px) {
