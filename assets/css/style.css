@@ -173,27 +173,36 @@ header {
 
 /*------------------------------------------------ Sections */
 
+.page-heading {
+    width: 80%;
+}
+
 .content-box {
     background-color: rgba(183, 175, 195, .3); /* muted lilac */
     border: 1px solid var(--indigo-gray);
     border-radius: .5rem;
+    font-size: 16px;
+    height: 100%;
     color: var(--floral-white);
     width: 80%;
 }
 
-/*------------------------------------------------ About */
-
-.about-me-heading {
-    width: 80%;
+.subheading {
+    font-size: 14px;
 }
 
+.img-border {
+    border: 1px solid rgba(255, 250, 240, 0.4); /* Floral white */ /* muted lilac: rgb(220, 214, 247) */
+    border-radius: 0.5rem;
+}
+
+/*------------------------------------------------ About */
+
 .profile-picture {
-    border: 1px var(--mist-mauve) solid;
-    border-radius: 1rem;
     width: 45%;
 }
 
-.about-me-skill {
+.list-group-item {
     background-color: transparent;
     border: none;
 }
@@ -223,10 +232,6 @@ header {
     color: #6D2BEF;
 }
 
-.about-me-text {
-    font-size: 15px;
-}
-
 @media (min-width: 576px) {
 
 }
@@ -246,29 +251,31 @@ header {
 /*------------------------------------------------ Skills    */
 
 .skills-list {
-    height: 200px;
+    padding-left: 2rem;
 }
 
-.list-item {
-    line-height: 2rem;
+.skills-list .list-group-item {
+    padding-right: .75rem;
 }
 
-.badge {
-    color: var(--charcoal-smoke);
-    float: right;
-    min-width: 90px;
+.badge { 
+    min-width: 40%;
 }
 
-.badge-not-started-bg {
-    background-color: var(--steel-blue-gray);
+.badge-font-color {
+    color: #232130 !important;
 }
 
-.badge-beginner-bg {
-    background-color: #7da4f2;
+.text-bg-success {
+    background-color: #9482ED !important;
 }
 
-.badge-intermediate-bg {
-    background-color: #ebb750;
+.text-bg-primary {
+    background-color: #F4AD66 !important; /* #F0CA7F */
+}
+
+.text-bg-secondary {
+    background-color: #B6B4BB !important; /* B3ADA2 */
 }
 
 @media (min-width: 576px) {
@@ -288,6 +295,15 @@ header {
 }
 
 /*------------------------------------------------ Projects */
+
+.project-image {
+    width: 95%;
+}
+
+.project-text {
+    height: 40%;
+    font-size: 15px;
+}
 
 @media (min-width: 576px) {
 
