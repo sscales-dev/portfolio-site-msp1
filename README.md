@@ -136,6 +136,11 @@ README template used, taken from [Code Institute Solutions on GitHub](https://gi
 
 https://www.atlassian.com/agile/project-management/user-stories
 
+example sites
+
+[Git Rebase](https://docs.github.com/en/get-started/using-git/about-git-rebase)
+[Comparing Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests#three-dot-and-two-dot-git-diff-comparisons)
+[Using Git Source Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#_remotes)
 ### Code
 
 [Favicon code](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel#icon)
@@ -159,6 +164,12 @@ https://www.w3schools.com/jsref/prop_element_classlist.asp
 https://www.w3schools.com/css/css3_mediaqueries.asp
 
 https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images
+
+[Responsive Design](https://kinsta.com/blog/responsive-web-design/#how-to-make-your-website-responsive)
+
+[Responsive Design](https://medium.com/@AlexanderObregon/a-comprehensive-guide-to-using-bootstrap-for-responsive-web-design-af9b38b32f68)
+
+[Accesible HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML)
 
 ### Content 
 
