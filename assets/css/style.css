@@ -173,8 +173,8 @@ header {
 
 /*------------------------------------------------ Sections */
 
-.page-heading {
-    width: 80%;
+.page-heading, .content-box {
+    width: 85%;
 }
 
 .content-box {
@@ -184,7 +184,6 @@ header {
     font-size: 16px;
     height: 100%;
     color: var(--floral-white);
-    width: 80%;
 }
 
 .subheading {
