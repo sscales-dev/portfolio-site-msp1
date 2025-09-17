@@ -1,6 +1,6 @@
 # Web Developer Portfolio Site
 
-See link to the [live project](https://sscales-dev.github.io/portfolio-site-msp1/).
+See link to the [live project](https://sscales-dev.github.io/portfolio-site-msp1).
 
 This is a portfolio site for my Web Development work. It is designed to present my skills, portfolio of work and key information about me to potential employers and collaborators in a responsive and accessible format, utilising good UX design priciples and practices.
 
@@ -93,6 +93,8 @@ As a recruiter, I want to source a suitable candidate for the position of Full S
 - Git
 - GitHub
 - Balsamiq
+- [Adobe - Convert to Webp](https://www.adobe.com/express/feature/image/resize/webp)
+https://image.online-convert.com/convert-to-webp
 
 ?? Image resource page
 
@@ -132,50 +134,64 @@ I used GitHub Pages to deploy my project, using the steps as follows:
 
 ## Credits 
 
-README template used, taken from [Code Institute Solutions on GitHub](https://github.com/Code-Institute-Solutions/SampleREADME)
+- README template used, taken from [Code Institute Solutions on GitHub](https://github.com/Code-Institute-Solutions/SampleREADME)
 
-https://www.atlassian.com/agile/project-management/user-stories
+- [User Story Guidance Article](https://www.atlassian.com/agile/project-management/user-stories)
+- [ChatGPT - Design Tips](https://chatgpt.com/share/68ca78c2-3f5c-8012-bf5b-9fd5b08bc407)
+- [ChatGPT - Color Pallette](https://chatgpt.com/share/68ca7874-eb1c-8012-9f03-8d690b387177)
+- [ChatGPT - Recruiter Needs](https://chatgpt.com/share/68ca78a4-8a54-8012-b928-9bc0f4246749)
 
-example sites
+_*include example sites I reviewed_
 
-[Git Rebase](https://docs.github.com/en/get-started/using-git/about-git-rebase)
-[Comparing Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests#three-dot-and-two-dot-git-diff-comparisons)
-[Using Git Source Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#_remotes)
+**GIT**
+
+- [Git Rebase](https://docs.github.com/en/get-started/using-git/about-git-rebase)
+- [Comparing Branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-comparing-branches-in-pull-requests#three-dot-and-two-dot-git-diff-comparisons)
+- [Using Git Source Control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview#_remotes)
+
 ### Code
 
-[Favicon code](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel#icon)
-[Nav](https://getbootstrap.com/docs/5.3/components/navs-tabs/)
-[Collapse btn](https://getbootstrap.com/docs/5.3/components/collapse/)
-[Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works)
-[Forms](https://getbootstrap.com/docs/5.3/forms/overview/)
-[Button Attributes](https://www.w3schools.com/tags/att_button_form.asp)
+- [Favicon code](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel#icon)
 
-https://docs.fontawesome.com/web/dig-deeper/accessibility
-https://docs.fontawesome.com/web/style/size
-https://docs.fontawesome.com/web/style/pull
-https://docs.fontawesome.com/web/style/icon-canvas
+**Accessibility**
 
-https://stackoverflow.com/questions/22039910/what-is-aria-label-and-how-should-i-use-it
+- [Accesible HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML)
+- [Stack Overflow - Aria Labels](https://stackoverflow.com/questions/22039910/what-is-aria-label-and-how-should-i-use-it)
 
-https://www.w3schools.com/cssref/css_ref_combinators.php
+**Responsive Design**
 
-https://www.w3schools.com/jsref/prop_element_classlist.asp
+- [How to make your website responsive](https://kinsta.com/blog/responsive-web-design/#how-to-make-your-website-responsive)
+- [Using Bootstrap for responsive design](https://medium.com/@AlexanderObregon/a-comprehensive-guide-to-using-bootstrap-for-responsive-web-design-af9b38b32f68)
+- [Responsive Images - Lighthouse](https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images)
 
-https://www.w3schools.com/css/css3_mediaqueries.asp
+**Bootstrap**
 
-https://developer.chrome.com/docs/lighthouse/performance/uses-responsive-images
+- [Nav](https://getbootstrap.com/docs/5.3/components/navs-tabs/)
+- [Collapse btn](https://getbootstrap.com/docs/5.3/components/collapse/)
+- [Modals](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works)
+- [Forms](https://getbootstrap.com/docs/5.3/forms/overview/)
 
-[Responsive Design](https://kinsta.com/blog/responsive-web-design/#how-to-make-your-website-responsive)
+**W3 Schools**
 
-[Responsive Design](https://medium.com/@AlexanderObregon/a-comprehensive-guide-to-using-bootstrap-for-responsive-web-design-af9b38b32f68)
+- [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
+- [CSS Combinators](https://www.w3schools.com/cssref/css_ref_combinators.php)
+- [Button Attributes](https://www.w3schools.com/tags/att_button_form.asp)
+- [JS classlist method](https://www.w3schools.com/jsref/prop_element_classlist.asp)
 
-[Accesible HTML](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/HTML)
+**Font Awesome**
 
-### Content 
+- [Accessibility with Font Awesome](https://docs.fontawesome.com/web/dig-deeper/accessibility)
+- [Icons in a list](https://docs.fontawesome.com/web/style/lists)
+- [Icon Sizing](https://docs.fontawesome.com/web/style/size)
+- [Icon Padding (pull)](https://docs.fontawesome.com/web/style/pull)
+- [Icon Canvas](https://docs.fontawesome.com/web/style/icon-canvas)
 
-[Image conversion](https://www.adobe.com/express/feature/image/resize/webp)
-https://image.online-convert.com/convert-to-webp
+### Content
+
+- About me written by [ChatGPT]()
 
 ### Media
+
+- Profile picture taken by [Inty Malcolm](https://www.facebook.com/intyphoto/)
 
 ### Acknowledgements
