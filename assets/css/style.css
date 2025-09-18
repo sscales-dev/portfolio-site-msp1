@@ -198,18 +198,27 @@ header {
     background-color: rgba(183, 175, 195, .3); /* muted lilac */
     border: 1px solid var(--indigo-gray);
     border-radius: .5rem;
-    font-size: 16px;
+    font-size: 18px;
     height: 100%;
     color: var(--floral-white);
 }
 
 .subheading {
-    font-size: 14px;
+    margin-bottom: .75em;
+}
+
+.subheading-icon {
+    padding-top: .25rem;
 }
 
 .img-border {
     border: 1px solid rgba(255, 250, 240, 0.4); /* Floral white */ /* muted lilac: rgb(220, 214, 247) */
     border-radius: 0.5rem;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
 }
 
 .content-box-text {
@@ -221,11 +230,6 @@ header {
 
 .profile-picture {
     width: 45%;
-}
-
-.list-group-item {
-    background-color: transparent;
-    border: none;
 }
 
 .language-icon {
@@ -271,12 +275,18 @@ header {
 
 /*------------------------------------------------ Skills    */
 
+.content-box.skills {
+    padding-bottom: 1.25rem !important;
+}
+
 .skills-list {
-    padding-left: 2rem;
+    font-size: 16px;
+    padding-left: 2.25em;
 }
 
 .skills-list .list-group-item {
-    padding-right: .75rem;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 .badge { 
@@ -318,7 +328,11 @@ header {
 /*------------------------------------------------ Projects */
 
 .project-image {
-    width: 95%;
+    width: 92.5%;
+}
+
+.project-content-width {
+    width: 90%;
 }
 
 @media (min-width: 576px) {
