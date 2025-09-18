@@ -132,11 +132,12 @@ header {
 }
 
 .fa-code {
-    padding: .2rem 0;
+    padding-bottom: .15em;
+    padding-top: .15em;
 }
 
-.nav-btn {
-    padding: .4rem .5rem .5rem;
+.fa-bars {
+    padding-bottom: .4em;
 }
 
 /* Grow */
