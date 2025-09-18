@@ -18,41 +18,41 @@
     <header>
       <div class="d-flex justify-content-between align-items-center px-2">
         <a class="d-flex flex-nowrap my-4 fs-1 site-title" href="index.html">
-            <i class="fa-solid fa-code ms-3 main-title-color"></i>
-            <h1 class="d-inline-block ms-3 text-nowrap main-title-color">Sam Scales</h1>
+            <i class="fa-solid fa-code ms-3"></i>
+            <h1 class="d-inline-block ms-3 text-nowrap">Sam Scales</h1>
         </a>
-        <button class="btn btn-link d-md-none fs-2 nav-btn nav-menu-color" type="button" title="Navigation Menu" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
+        <button class="btn btn-link d-md-none fs-2" type="button" title="Navigation Menu" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
             <i class="fa-solid fa-bars"></i>
         </button>
       </div>
       <ul class="nav d-none d-md-flex justify-content-end my-3 me-4">
         <li class="nav-item">
-            <a class="nav-link fs-5 nav-menu-color hvr-grow" href="index.html">About</a>
+            <a class="nav-link fs-5 hvr-grow" href="index.html">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-5 nav-menu-color hvr-grow" href="skills.html">Skills</a>
+            <a class="nav-link fs-5 hvr-grow" href="skills.html">Skills</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-5 nav-menu-color hvr-grow active" href="projects.html" aria-current="page">Projects</a>
+            <a class="nav-link fs-5 hvr-grow active" href="projects.html" aria-current="page">Projects</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link fs-5 nav-menu-color hvr-grow" role="button" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
+            <a class="nav-link fs-5 hvr-grow" role="button" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
         </li>
       </ul>
       <div class="collapse nav-toggle-menu" id="nav-toggle-menu">
         <div class="card card-body">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link fs-5 py-3 nav-menu-color hvr-grow" href="index.html">About</a>
+                    <a class="nav-link py-3 fs-5 hvr-grow" href="index.html">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5 py-3 nav-menu-color hvr-grow" href="skills.html">Skills</a>
+                    <a class="nav-link py-3 fs-5 hvr-grow" href="skills.html">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5 py-3 nav-menu-color hvr-grow active" href="projects.html" aria-current="page">Projects</a>
+                    <a class="nav-link py-3 fs-5 hvr-grow active" href="projects.html" aria-current="page">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fs-5 py-3 nav-menu-color hvr-grow" data-bs-toggle="modal" data-bs-target="#contact-modal" onclick="closeMenu()">Contact</a>
+                    <a class="nav-link py-3 fs-5 hvr-grow" data-bs-toggle="modal" data-bs-target="#contact-modal" onclick="closeMenu()">Contact</a>
                 </li>
             </ul>
         </div>
@@ -61,9 +61,11 @@
     <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-label" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-            <div class="modal-header modal-title-bar-bg-color">
-                <h1 class="modal-title fs-5 modal-title-font-color" id="contact-modal-label">Contact Me</h1>
-                <button class="btn-close" type="button" style="background-image: none;" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark fs-5 modal-title-font-color"></i></button>
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="contact-modal-label">Contact Me</h1>
+                <button class="btn-close" type="button" style="background-image: none;" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark fs-5"></i>
+                </button>
             </div>
             <div class="modal-body form-bg-color">
                 <form id="contact-form" action="/index.html" class="was-validated">
@@ -82,7 +84,7 @@
                     </div>
                 </form>
             </div>
-            <div class="modal-footer modal-title-bar-bg-color">
+            <div class="modal-footer">
                 <button class="btn btn-secondary btn-secondary-color" type="button" data-bs-dismiss="modal">Close</button>
                 <button class="btn btn-primary" type="submit" form="contact-form" value="submit">Submit</button>
             </div>
@@ -90,40 +92,40 @@
         </div>
     </div>
     <section class="container-fluid ps-5">
-        <h2 class="page-heading section-heading-font-color">My Work</h2>
+        <h2 class="page-heading page-heading-font-color">My Work</h2>
         <div class="row">
             <div class="col-12 mb-4 p-4 content-box project">
                 <div class="d-flex flex-wrap align-items-center mb-3 subheading">
-                    <i class="fa-solid fa-globe pt-1 section-heading-icon-color"></i>
-                    <h4 class="ms-3 my-0 section-heading-font-color">Love Running</h4>
+                    <i class="fa-solid fa-globe pt-1 subheading-icon"></i>
+                    <h4 class="ms-3 my-0 subheading-font-color">Love Running</h4>
                     
                 </div>   
-                <img class="d-block mx-auto mb-3 project-image img-border" src="assets/images/love-running.png" srcset="assets/images/love-running-sm.webp 576w assets/images/love-running-md.webp 768w assets/images/love-running-lg.webp 992w assets/images/love-running-xl.webp 1200w" alt="The Love Running Home Page">
-                <h6 class="d-block mx-auto mb-3 project-content-width">CI - HTML/ CSS Mini Project</h6>
-                <p class="d-block mx-auto project-content-width content-box-text primary-font-color">A mini project for the HTML/ CSS section of my Web Development course with Code Institute. I followed the instructor and produced the code for the form myself at the end.
+                <img class="d-block mx-auto my-4 project-image img-border" src="assets/images/love-running.png" srcset="assets/images/love-running-sm.webp 576w assets/images/love-running-md.webp 768w assets/images/love-running-lg.webp 992w assets/images/love-running-xl.webp 1200w" alt="The Love Running Home Page">
+                <h6 class="d-block mx-auto mb-3 project-content-width secondary-font fw-normal">CI - HTML/ CSS Mini Project</h6>
+                <p class="d-block mx-auto project-content-width secondary-font primary-font-color">A mini project for the HTML/ CSS section of my Web Development course with Code Institute. I followed the instructor and produced the code for the form myself at the end.
                 </p>
             </div>
             <div class="col-12 mb-4 p-4 content-box project">
                 <div class="d-flex flex-wrap align-items-center mb-3 subheading">
-                    <i class="fa-solid fa-globe pt-1 section-heading-icon-color"></i>
-                    <h4 class="ms-3 my-0 section-heading-font-color">Whisky Drop</h4>
+                    <i class="fa-solid fa-globe pt-1 subheading-icon"></i>
+                    <h4 class="ms-3 my-0 subheading-font-color">Whisky Drop</h4>
                     
                 </div>
                 <a href="https://sscales-dev.github.io/love-running-challenge/" target="_blank"></a>
-                <img class="d-block mx-auto mb-3 project-image img-border" src="assets/images/whiskey-drop.png" srcset="assets/images/whiskey-drop-sm.webp 576w assets/images/whiskey-drop-md.webp 768w assets/images/whiskey-drop-lg.webp 992w assets/images/whiskey-drop-xl.webp 1200w" alt="The Love Running Home Page">
-                <h6 class="d-block mx-auto mb-3 project-content-width">CI - Bootstrap 4 Mini Project</h6>
-                <p class="d-block mx-auto project-content-width content-box-text primary-font-color">A mini project for the Bootstrap section of my Web Development course with Code Institute. I followed the instructor and customised/ tweaked the design at the end.
+                <img class="d-block mx-auto my-4 project-image img-border" src="assets/images/whiskey-drop.png" srcset="assets/images/whiskey-drop-sm.webp 576w assets/images/whiskey-drop-md.webp 768w assets/images/whiskey-drop-lg.webp 992w assets/images/whiskey-drop-xl.webp 1200w" alt="The Love Running Home Page">
+                <h6 class="d-block mx-auto mb-3 project-content-width secondary-font fw-normal">CI - Bootstrap 4 Mini Project</h6>
+                <p class="d-block mx-auto project-content-width secondary-font primary-font-color">A mini project for the Bootstrap section of my Web Development course with Code Institute. I followed the instructor and customised/ tweaked the design at the end.
                 </p>
             </div>
             <div class="col-12 mb-4 p-4 content-box project">
                 <div class="d-flex flex-wrap align-items-center mb-3 subheading">
-                    <i class="fa-solid fa-globe pt-1 section-heading-icon-color"></i>
-                    <h4 class="ms-3 my-0 section-heading-font-color">Rosie Resume</h4>
+                    <i class="fa-solid fa-globe pt-1 subheading-icon"></i>
+                    <h4 class="ms-3 my-0 subheading-font-color">Rosie Resume</h4>
                     
                 </div>   
-                <img class="d-block mx-auto mb-3 project-image img-border" src="assets/images/rosie-resume.png" srcset="assets/images/rosie-resume-sm.webp 576w assets/images/rosie-resume-md.webp 768w assets/images/rosie-resume-lg.webp 992w assets/images/rosie-resume-xl.webp 1200w" alt="The Love Running Home Page">
-                <h6 class="d-block mx-auto mb-3 project-content-width">CI - UCD Mini Project</h6>
-                <p class="d-block mx-auto project-content-width content-box-text primary-font-color">A mini project for the User Centered Design section of my Web Development course with Code Institute. I followed the instructor for this site.
+                <img class="d-block mx-auto my-4 project-image img-border" src="assets/images/rosie-resume.png" srcset="assets/images/rosie-resume-sm.webp 576w assets/images/rosie-resume-md.webp 768w assets/images/rosie-resume-lg.webp 992w assets/images/rosie-resume-xl.webp 1200w" alt="The Love Running Home Page">
+                <h6 class="d-block mx-auto mb-3 project-content-width secondary-font fw-normal">CI - UCD Mini Project</h6>
+                <p class="d-block mx-auto project-content-width secondary-font primary-font-color">A mini project for the User Centered Design section of my Web Development course with Code Institute. I followed the instructor for this site.
                 </p>
             </div>
         </div>
@@ -131,31 +133,32 @@
     <footer class="container-fluid">
         <div class="row d-lg-flex align-items-lg-start justify-content-lg-between align-items-xl-center mb-3 footer-padding">
             <div class="col-12 col-md-8 col-lg-6 col-xl-8">
-                <div class="row d-xl-flex justify-content-xl-around">
-                    <div class="col-12 col-xl-4 mb-2 text-nowrap hvr-shrink email-address">
-                        <p class="d-inline-block h6 m-0 pe-2 primary-font-color">Email:</p>
-                        <a class="primary-font-color" href="mailto:scales.samantha@outlook.com" aria-label="Email Me">scales.samantha@outlook.com</a>
+                <div class="row d-xl-flex justify-content-xl-around mb-2">
+                    <div class="col-12 col-xl-4 mb-2 text-nowrap hvr-shrink email-address primary-font-color">
+                        <p class="d-inline-block h6 m-0 pe-2">Email:</p>
+                        <a class="" href="mailto:scales.samantha@outlook.com" aria-label="Email Me">scales.samantha@outlook.com</a>
                     </div>
-                    <div class="col-12 col-xl-3 mb-2 text-nowrap hvr-shrink telephone">
-                        <p class="d-inline-block h6 m-0 pe-2 primary-font-color">Telephone:</p>
-                        <a class="primary-font-color" href="tel:+447301148142" aria-label="Call Me">+447301 148142</a>
+                    <div class="col-12 col-xl-3 mb-2 text-nowrap hvr-shrink telephone primary-font-color">
+                        <p class="d-inline-block h6 m-0 pe-2">Telephone:</p>
+                        <a class="" href="tel:+447301148142" aria-label="Call Me">+44 7301 148142</a>
                     </div>
-                    <div class="col-12 col-xl-3 mb-3m-0 pe-2 primary-font-color">Location:</p>
-                        <a class="primary-font-color" href="#" aria-label="Location">SE4 2AB</a>
+                    <div class="col-12 col-xl-3 mb-2 text-nowrap hvr-shrink post-code primary-font-color">
+                        <p class="d-inline-block h6 m-0 pe-2">Location:</p>
+                        <a class="cursor-text" href="#" aria-label="Location">SE4 2AB</a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-4 col-lg-6 col-xl-4">
                 <div class="row d-md-flex align-items-md-start justify-content-md-end">
-                    <div class="col-12 col-lg-6 col-xl-8 mb-3 social-links">
-                        <a class="fs-3" href="https://www.instagram.com/sscales87" target="_blank" aria-label="Link to Instagram Profile">
-                            <i class="fa-brands fa-instagram social-icon social-links-icon-color"></i>
+                    <div class="col-12 col-lg-6 col-xl-8 mb-3 fs-3 social-links social-links-color">
+                        <a href="https://www.instagram.com/sscales87" target="_blank" aria-label="Link to Instagram Profile">
+                            <i class="fa-brands fa-instagram social-icon"></i>
                         </a>
-                        <a class="fs-3" href="https://www.linkedin.com/in/sscales/" target="_blank" aria-label="Link to LinkedIn Profile">
-                            <i class="fa-brands fa-linkedin social-icon social-links-icon-color"></i>
+                        <a href="https://www.linkedin.com/in/sscales/" target="_blank" aria-label="Link to LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin social-icon"></i>
                         </a>
-                        <a class="fs-3" href="https://github.com/sscales-dev" target="_blank" aria-label="Link to GitHub Profile">
-                            <i class="fa-brands fa-github social-icon social-links-icon-color"></i>
+                        <a href="https://github.com/sscales-dev" target="_blank" aria-label="Link to GitHub Profile">
+                            <i class="fa-brands fa-github social-icon"></i>
                         </a>
                     </div>
                     <div class="col-12 col-lg-6 col-xl-4 mb-3 download-cv">

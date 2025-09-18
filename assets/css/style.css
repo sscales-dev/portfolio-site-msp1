@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* ---------------------------------------------------Colours */
 
 * {
+    --raisin-black: #131019;
     --charcoal-smoke: #2c2b3c;
     --indigo-gray: #3f3d56;
-    --floral-white: #FFFAF0;
+
+    --steel-blue-gray: #a6a6b2;
     --muted-lilac: #b7afc3;
+    --french-gray: #bac7d6;
     --mist-mauve: #dcd6f7;
     --light-gray: #ededed;
-    --french-gray: #bac7d6;
-    --steel-blue-gray: #a6a6b2;
+    --floral-white: #FFFAF0;
+
     --soft-fern: #a8d5ba;
     --orange-web: #fead34;
     --dusty-rose: #d77a85;
@@ -24,47 +26,34 @@
     --bs-form-invalid-border-color: var(--dusty-rose);
 }
 
-.main-title-color {
-    color: var(--floral-white);
+.primary-font {
+    font-family: "Open Sans", sans-serif;
 }
 
 .primary-font-color {
     color: var(--floral-white);
 }
 
-.nav-menu-color {
+.page-heading-font-color {
     color: var(--floral-white);
 }
 
-.nav-menu-color:hover { /* change color */
-    color: #7da4f2;
-}
-
-.section-heading-font-color {
+.subheading-font-color {
     color: var(--floral-white);
 }
 
-.section-heading-icon-color {
+.social-links-color {
     color: var(--floral-white);
 }
 
-.social-links-icon-color {
-    color: var(--floral-white);
-}
-
-.social-links-icon-color:hover { /* change color */
-    color: #7da4f2;
-}
-
-.active {
+.social-links-color:hover {
     color: var(--orange-web);
 }
 
-/* ---------------------------------------------------Whole Page/ Site */
+/* --------------------------------------------------- Whole Page/ Site */
 
 body {
     background-color: var(--charcoal-smoke);
-    font-family: "Chocolate Classical Sans", sans-serif;
 }
 
 img {
@@ -72,34 +61,73 @@ img {
 }
 
 a {
+    color: inherit;
+    font-size: inherit;
     text-decoration: none;
 }
 
-body, p, a { /* TODO: add other elements */
-    font-size: 16px;
+body, h1, h2, h6, p, a, li { /* TODO: add other elements? */
+    font-family: "Open Sans", sans-serif;
 }
 
-.btn-primary { /* TODO */
+h6 {
+    font-size: 20px;
+}
+
+.page-heading, .content-box {
+    width: 90%;
+}
+
+.content-box {
+    background-color: rgba(183, 175, 195, .3); /* muted lilac */
+    border: 1px solid var(--indigo-gray);
+    border-radius: .5rem;
+    font-size: 17px;
+    height: 100%;
+    color: var(--floral-white);
+}
+
+.subheading {
+    margin-bottom: .75em;
+}
+
+.subheading-icon {
+    font-size: 18px;
+}
+
+.img-border {
+    border: 1px solid rgba(255, 250, 240, 0.4); /* Floral white */ /* muted lilac: rgb(220, 214, 247) */
+    border-radius: 0.5rem;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.secondary-font {
+    font-family: "Blinker", sans-serif;
+    font-weight: 300;
+}
+
+.btn-primary {
     background-color: var(--soft-fern);
     border-color: var(--soft-fern);
-    color: var(--charcoal-smoke);
+    color: var(--raisin-black);
     font-weight: 500;
     outline: var(--soft-fern);
-    width: 132px; /*review*/
+    width: 132px;
 }
 
-.btn-primary:hover { /* TODO: change color*/
-    background-color: #7da4f2;
-    border-color: #7da4f2;
+.btn-primary:hover {
+    background-color: var(--orange-web);
+    border-color: var(--orange-web);
     color: var(--floral-white);
-    outline: #7da4f2;
+    outline: var(--orange-web);
 }
 
-.btn-secondary-color {
-    background-color: var(--steel-blue-gray);
-    border-color: var(--steel-blue-gray);
-    color: var(--floral-white);
-    outline: var(--steel-blue-gray);
+.cursor-text {
+    cursor: text;
 }
 
 @media (min-width: 576px) {
@@ -127,6 +155,7 @@ header {
 }
 
 .site-title {
+    color: var(--floral-white);
     line-height: 1;
 }
 
@@ -135,8 +164,35 @@ header {
     padding-top: .15em;
 }
 
+/*------------------------------------------------ Navigation Menu */
+
 .fa-bars {
+    color: var(--floral-white);
     padding-bottom: .4em;
+}
+
+.nav-toggle-menu {
+    background-color: rgba(44, 43, 60, 0.6); /* charcoal smoke */
+    height: 100vh;
+    transition: none;
+}
+
+.card {
+    background-color: var(--indigo-gray);
+    border: 1px solid var(--steel-blue-gray);
+    margin: 0 1rem;
+}
+
+.nav-link {
+    color: var(--floral-white);
+}
+
+.nav-link:hover {
+    color: var(--orange-web);
+}
+
+.active {
+    color: var(--orange-web);
 }
 
 /* Grow */
@@ -157,74 +213,39 @@ header {
     transform: scale(1.1);
 }
 
-/* Shrink */
-.hvr-shrink {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
-  -webkit-transform: scale(0.9);
-  transform: scale(0.9);
-}
+/*------------------------------------------------ Contact Modal */
 
-/*------------------------------------------------ Collapsible Navigation Menu */
-
-.nav-toggle-menu {
-    background-color: rgba(44, 43, 60, 0.6); /* charcoal smoke */
-    height: 100vh;
-    transition: none;
-}
-
-.card {
+.modal-header,
+.modal-footer {
     background-color: var(--indigo-gray);
-    border: 1px solid var(--steel-blue-gray);
-    margin: 0 1rem;
 }
 
-/*------------------------------------------------ Sections */
-
-.page-heading, .content-box {
-    width: 90%;
-}
-
-.content-box {
-    background-color: rgba(183, 175, 195, .3); /* muted lilac */
-    border: 1px solid var(--indigo-gray);
-    border-radius: .5rem;
-    font-size: 18px;
-    height: 100%;
+.modal-title,
+.btn-close {
     color: var(--floral-white);
 }
 
-.subheading {
-    margin-bottom: .75em;
+.form-bg-color {
+    background-color: rgba(183, 175, 195, 0.1); /* Muted Lilac*/
 }
 
-.subheading-icon {
-    padding-top: .25rem;
+.form-label,
+.form-control,
+.form-text {
+    color: var(--indigo-gray);
 }
 
-.img-border {
-    border: 1px solid rgba(255, 250, 240, 0.4); /* Floral white */ /* muted lilac: rgb(220, 214, 247) */
-    border-radius: 0.5rem;
+.btn-secondary-color {
+    background-color: var(--steel-blue-gray);
+    border-color: var(--steel-blue-gray);
+    color: var(--floral-white);
+    outline: var(--steel-blue-gray);
 }
 
-.list-group-item {
-    background-color: transparent;
-    border: none;
-}
-
-.content-box-text {
-    font-size: 15px;
-    font-weight: 300;
-}
+/* ?? Should i use inline styling or keep it on the stylesheet?
+.btn-close {
+    background-image: none;
+}*/
 
 /*------------------------------------------------ About */
 
@@ -289,24 +310,28 @@ header {
     padding-right: .5em;
 }
 
-.badge { 
-    min-width: 40%;
-}
-
-.badge-font-color {
-    color: #232130 !important;
+.badge {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    width: 50%;
 }
 
 .text-bg-success {
-    background-color: #9482ED !important;
+    background-color: var(--soft-fern) !important;
 }
 
 .text-bg-primary {
-    background-color: #F4AD66 !important; /* #F0CA7F */
+    background-color: var(--orange-web) !important;
 }
 
 .text-bg-secondary {
-    background-color: #B6B4BB !important; /* B3ADA2 */
+    background-color: var(--french-gray) !important;
+}
+
+.text-bg-success,
+.text-bg-primary,
+.text-bg-secondary {
+    color: var(--raisin-black) !important;
 }
 
 @media (min-width: 576px) {
@@ -351,31 +376,6 @@ header {
 
 }
 
-/*------------------------------------------------ Contact Modal */
-
-.modal-title-bar-bg-color {
-    background-color: var(--indigo-gray);
-}
-
-.modal-title-font-color {
-    color: var(--floral-white);
-}
-
-.form-bg-color {
-    background-color: rgba(183, 175, 195, 0.1); /* Muted Lilac*/
-}
-
-.form-label,
-.form-control,
-.form-text {
-    color: var(--indigo-gray);
-}
-
-/*
-.btn-close {
-    background-image: none;
-}*/
-
 /*------------------------------------------------ Footer */
 
 .footer-padding {
@@ -383,17 +383,30 @@ header {
     padding-right:  1.75rem;
 }
 
-.post-code a {
-    cursor: text;
-}
-
 .social-links {
-    width: 132px;  
+    min-width: 136px; 
 }
 
 .social-icon {
     padding-left: .25em;
     padding-right: .25em;
+}
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 @media (min-width: 576px) {
