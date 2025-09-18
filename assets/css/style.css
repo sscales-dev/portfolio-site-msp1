@@ -351,8 +351,9 @@ header {
     padding-left: 1.75rem;
     padding-right:  1.75rem;
 }
-.location a {
-    cursor: none;
+
+.post-code a {
+    cursor: text;
 }
 
 .social-links {
