@@ -191,19 +191,24 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+section.container-fluid {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
 img {
     width: 100%;
+}
+
+.img-border {
+    border: 1px solid rgba(255, 250, 240, 0.4); /* Floral white */ /* muted lilac: rgb(220, 214, 247) */
+    border-radius: 0.5rem;
 }
 
 a {
     color: inherit;
     font-size: inherit;
     text-decoration: none;
-}
-
-section.container-fluid {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
 }
 
 .secondary-font {
@@ -230,11 +235,6 @@ section.container-fluid {
 
 .subheading-icon {
     
-}
-
-.img-border {
-    border: 1px solid rgba(255, 250, 240, 0.4); /* Floral white */ /* muted lilac: rgb(220, 214, 247) */
-    border-radius: 0.5rem;
 }
 
 .list-group-item {
@@ -407,7 +407,13 @@ header {
 /*------------------------------------------------ About */
 
 .profile-picture {
-    width: 45%;
+    width: 85%;
+}
+
+.about-me-languages-list {
+    padding-left: 40px;
+    padding-right: 0;
+
 }
 
 .languages-icon {
