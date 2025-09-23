@@ -109,7 +109,12 @@ https://image.online-convert.com/convert-to-webp
 
 ### Further Testing
 
+Lighthouse
+
 ### Known Bugs
+
+- languages list from about me page displays over the top of the navigation dropdown when cicked (mobile view)
+- when clicking navigation button dropdown, personal info in footer still shows (due to hvr-shrink class)
 
 ## Deployment
 
@@ -117,8 +122,7 @@ https://image.online-convert.com/convert-to-webp
 
 I used GitHub Pages to deploy my project, using the steps as follows:
 
-1.  Navigate to [GitHub repository](https://github.com/sscales-dev/portfolio-site-msp1)
-1.  Click Settings tab at top of page
+1.  Navigate to 'Settings' tab at top of repository
 1.  Scroll to bottom of 'General' page and click 'Change Visibility' > 'Change to Public'
 1.  Click 'I want to make my repository public'
 1.  Click 'I have read and understand these effects'
@@ -141,7 +145,7 @@ I used GitHub Pages to deploy my project, using the steps as follows:
 - [ChatGPT - Color Pallette](https://chatgpt.com/share/68ca7874-eb1c-8012-9f03-8d690b387177)
 - [ChatGPT - Recruiter Needs](https://chatgpt.com/share/68ca78a4-8a54-8012-b928-9bc0f4246749)
 
-_*include example sites I reviewed_
+  _*include example sites I reviewed_
 
 **GIT**
 
@@ -192,6 +196,6 @@ _*include example sites I reviewed_
 
 ### Media
 
-- Profile picture taken by [Inty Malcolm](https://www.facebook.com/intyphoto/)
+- Profile picture taken by [Inty Malcolm (2009)](https://www.facebook.com/intyphoto/)
 
 ### Acknowledgements
