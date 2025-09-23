@@ -201,7 +201,7 @@ a {
     text-decoration: none;
 }
 
-section {
+section.container-fluid {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
 }
@@ -368,8 +368,8 @@ header {
 /*------------------------------------------------ Navigation Menu */
 
 .nav-toggle-menu {
-    background-color: rgba(44, 43, 60, 0.6); /* charcoal smoke */
-    height: 100vh;
+    background-color: rgba(44, 43, 60, 0.8); /* charcoal smoke */
+    height: 100%;
     position: fixed;
     top: 12%;
     width: 100%;
@@ -381,7 +381,9 @@ header {
 }
 
 @media (min-width: 576px) {
-
+    .nav-toggle-menu {
+        top: 23vh;
+    }
 }
 
 /*------------------------------------------------ Contact Modal */
