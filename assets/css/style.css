@@ -407,13 +407,12 @@ header {
 /*------------------------------------------------ About */
 
 .profile-picture {
-    width: 85%;
+    width: 87.5%;
 }
 
 .about-me-languages-list {
-    padding-left: 40px;
+    padding-left: 42px;
     padding-right: 0;
-
 }
 
 .languages-icon {
@@ -445,6 +444,20 @@ header {
 
 .about-me-text {
     font-size: 16px;
+}
+
+@media (min-width: 576px) {
+    .content-box.about-me {
+        padding-top: 1.75rem !important;
+    }
+    .profile-picture {
+        margin-left: 12px;
+        width: 100%;
+    }
+
+    .about-me-text {
+        width: 70%;
+    }
 }
 
 @media (min-width: 768px) {
