@@ -201,9 +201,9 @@ a {
     text-decoration: none;
 }
 
-section.px-5 {
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
+section {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .secondary-font {
@@ -326,7 +326,7 @@ section.px-5 {
 
     .page-heading,
     .content-box {
-        width: 95%;
+        width: 90%;
     }
 }
 
