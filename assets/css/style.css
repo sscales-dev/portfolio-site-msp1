@@ -326,7 +326,7 @@ a {
 
     .page-heading,
     .content-box {
-        width: 90%;
+        width: 95%;
     }
 }
 
@@ -450,13 +450,14 @@ header {
     .content-box.about-me {
         padding-top: 1.75rem !important;
     }
+    
     .profile-picture {
-        margin-left: 12px;
+        margin-left: 1.25rem !important;
         width: 100%;
     }
 
     .about-me-text {
-        width: 70%;
+        width: 67.5%;
     }
 }
 
@@ -480,16 +481,16 @@ header {
 
 .skills-list {
     font-size: 16px;
-    padding-left: 2.25em;
+    padding-left: 2.75em;
 }
 
 .skills-list > .list-group-item {
     padding-left: .5em;
-    padding-right: .5em;
+    padding-right: .75em;
 }
 
 .badge {
-    width: 50%;
+    width: 47.5%;
 }
 
 .bg-not-started-bg-color {
@@ -510,8 +511,21 @@ header {
     color: var(--raisin-black) !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+    .skills-page-heading {
+        padding-left: 2rem !important;
+    }
 
+    .content-box.skills {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        width: 75%;
+    }
+
+    .skills-list {
+        padding-left: 4em;
+        padding-right: .5em;
+    }
 }
 
 @media (min-width:992px) {
@@ -532,8 +546,16 @@ header {
     width: 90%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+    .content-box.project {
+        padding-left: 2rem;
+        padding-right: 2rem;
 
+    }
+
+    .project-image {
+        width: 90%;
+    }
 }
 
 @media (min-width:992px) {
@@ -562,6 +584,10 @@ header {
 .social-icon {
     padding-left: .25em;
     padding-right: .25em;
+}
+
+@media (min-width: 576px) {
+
 }
 
 @media (min-width: 768px) {
