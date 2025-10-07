@@ -257,7 +257,7 @@ a {
 .btn-primary:hover {
     background-color: var(--orange-web);
     border-color: var(--orange-web);
-    color: var(--floral-white);
+    color: var(--charcoal-smoke);
     outline: var(--orange-web);
 }
 
