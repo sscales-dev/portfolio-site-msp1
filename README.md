@@ -72,7 +72,9 @@ As a recruiter, I want to source a suitable candidate for the position of Full S
 
 ### Wireframes
 
-## Features 
+## Features
+
+
 
 ### Possible Features
 
@@ -98,7 +100,14 @@ https://image.online-convert.com/convert-to-webp
 
 ?? Image resource page
 
-## Testing 
+## Testing
+
+- screenshot of final features  
+- explain link with user stories
+  - e.g navigate easily through the site
+  - what features acheive requirements
+
+- test user stories
 
 ### Validator Testing 
 
@@ -113,8 +122,8 @@ Lighthouse
 
 ### Known Bugs
 
-- languages list from about me page displays over the top of the navigation dropdown when cicked (mobile view)
-- when clicking navigation button dropdown, personal info in footer still shows (due to hvr-shrink class)
+- FIXED: languages list from about me page displays over the top of the navigation dropdown when cicked (mobile view)
+- FIXED: when clicking navigation button dropdown, personal info in footer still shows (due to hvr-grow classes)
 
 ## Deployment
 
@@ -141,6 +150,7 @@ I used GitHub Pages to deploy my project, using the steps as follows:
 - README template used, taken from [Code Institute Solutions on GitHub](https://github.com/Code-Institute-Solutions/SampleREADME)
 
 - [User Story Guidance Article](https://www.atlassian.com/agile/project-management/user-stories)
+
 - [ChatGPT - Design Tips](https://chatgpt.com/share/68ca78c2-3f5c-8012-bf5b-9fd5b08bc407)
 - [ChatGPT - Color Pallette](https://chatgpt.com/share/68ca7874-eb1c-8012-9f03-8d690b387177)
 - [ChatGPT - Recruiter Needs](https://chatgpt.com/share/68ca78a4-8a54-8012-b928-9bc0f4246749)
