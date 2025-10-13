@@ -485,10 +485,10 @@ header {
 
 .return-home-btn {
     height: 28px;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.025rem;
-    padding-top: 0.025rem;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
     width: 120px;
 }
 
