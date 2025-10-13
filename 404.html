@@ -15,13 +15,136 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
+    <!-- Header -->
     <header>
+      <div class="d-flex justify-content-between align-items-center pt-2 px-3">
+        <!-- Site Title -->
+        <a class="d-flex flex-nowrap my-3 my-sm-3 fs-1 site-title site-title-color" href="index.html" title="Sam Scales - Portfolio Site - Home" aria-label="Sam Scales - Portfolio Site - Home">
+            <i class="fa-solid fa-code ms-3"></i>
+            <h1 class="d-inline-block ms-3 text-nowrap">Sam Scales</h1>
+        </a>
+        <!-- Navigation Menu -->
+        <button class="btn btn-link d-md-none fs-2" type="button" title="Open Navigation Menu" aria-label="Open Navigation Menu" data-bs-toggle="collapse" data-bs-target="#nav-toggle-menu" aria-expanded="false" aria-controls="nav-toggle-menu">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <!-- Desktop Menu -->
+        <ul class="nav d-none d-md-flex justify-content-end my-3 me-4">
+            <li class="nav-item hvr-grow">
+                <a class="nav-link fs-4" href="index.html" title="About Me" aria-label="About Me">About</a>
+            </li>
+            <li class="nav-item hvr-grow">
+                <a class="nav-link fs-4" href="skills.html" title="My Skills" aria-label="My Skills">Skills</a>
+            </li>
+            <li class="nav-item hvr-grow">
+                <a class="nav-link fs-4" href="projects.html" title="My Projects" aria-label="My Projects">Projects</a>
+            </li>
+            <li class="nav-item hvr-grow">
+                <a class="nav-link fs-4" role="button" title="Contact Form" aria-label="Contact Form" data-bs-toggle="modal" data-bs-target="#contact-modal">Contact</a>
+            </li>
+        </ul>
+      </div>
+      <!-- Mobile Menu-->
+      <div class="collapse px-2 px-sm-5 nav-toggle-menu" id="nav-toggle-menu">
+            <div class="card card-body mx-3 px-sm-4">
+                <ul class="nav flex-column">
+                    <li class="nav-item hvr-grow">
+                        <a class="nav-link py-2 fs-4 active" href="index.html" title="About Me" aria-label="About Me" aria-current="page">About</a>
+                    </li>
+                    <li class="nav-item hvr-grow">
+                        <a class="nav-link py-2 fs-4" href="skills.html" title="My Skills" aria-label="My Skills">Skills</a>
+                    </li>
+                    <li class="nav-item hvr-grow">
+                        <a class="nav-link py-2 fs-4" href="projects.html" title="My Projects" aria-label="My Projects">Projects</a>
+                    </li>
+                    <li class="nav-item hvr-grow">
+                        <a class="nav-link py-2 fs-4" title="Contact Form" aria-label="Contact Form" data-bs-toggle="modal" data-bs-target="#contact-modal" onclick="closeMenu()">Contact</a>
+                    </li>
+                </ul>
+            </div>
+      </div>
     </header>
-    <section class="container-fluid my-3 my-sm-4 px-sm-5">
-        <h2 class="my-4 fw-normal page-heading page-heading-font-color">Error 404.</h2>
-        <a class="btn btn-primary text-nowrap hvr-grow btn-font-style" href="index.html" role="button">Return Home</a>
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" aria-labelledby="contact-modal-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header modal-title-bar-color modal-title-font-color">
+                <h1 class="modal-title fs-4" id="contact-modal-label">Contact Me</h1>
+                <button class="btn-close hvr-grow" type="button" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark fa-xl modal-title-font-color"></i>
+                </button>
+            </div>
+            <!-- Contact Form -->
+            <div class="modal-body form-bg-color">
+                <form id="contact-form" action="success.html" class="was-validated">
+                    <div class="mb-3">
+                        <label class="form-label form-text-color" for="sender-name">Your Name:</label>
+                        <input class="form-control form-text-color input-validity-accent" id="sender-name" type="text" name="sender-name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label form-text-color" for="sender-email-address">Email address:</label>
+                        <input class="form-control form-text-color input-validity-accent" id="sender-email-address" type="email" name="sender-email-address" aria-describedby="emailHelp" required>
+                        <div class="form-text form-text-color" id="emailHelp">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label form-text-color" for="sender-message">Message:</label>
+                        <textarea class="form-control form-text-color input-validity-accent" id="sender-message" name="sender-message" rows="5" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer modal-title-bar-color">
+                <button class="btn btn-secondary hvr-grow btn-font-style" type="button" data-bs-dismiss="modal">Close</button>
+                <button class="btn btn-primary hvr-grow btn-font-style" type="submit" form="contact-form" value="submit">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- Error Response -->
+    <section class="container-fluid">
+        <h2 class="d-flex align-items-center my-5 fw-normal page-heading page-heading-font-color">Error 404.
+            <a class="btn btn-primary mx-4 text-nowrap hvr-grow btn-font-style return-home-btn" href="index.html" role="button">Return Home</a>
+        </h2>
     </section>
-    <footer class="container-fluid">
+    <!-- Footer -->
+    <footer class="container-fluid mb-4 mb-sm-3">
+        <div class="row d-lg-flex justify-content-lg-between align-items-lg-start footer-padding">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <!-- Contact Details -->
+                <div class="row mb-2 footer-text-color">
+                    <div class="col-12 mb-2 text-nowrap email-address">
+                        <h6 class="d-inline-block m-0 me-2 me-md-3 fw-normal">Email:</h6>
+                        <a class="hvr-grow fw-light details-links" href="mailto:scales.samantha@outlook.com" title="Link to email" aria-label="Email Me">scales.samantha@outlook.com</a>
+                    </div>
+                    <div class="col-12 mb-2 text-nowrap telephone">
+                        <h6 class="d-inline-block m-0 me-2 me-md-3 fw-normal">Telephone:</h6>
+                        <a class="hvr-grow fw-light details-links" href="tel:+447301148142" title="Link to telephone" aria-label="Call Me">+44 7301 148142</a>
+                    </div>
+                    <div class="col-12 mb-2 text-nowrap post-code">
+                        <h6 class="d-inline-block m-0 me-2 me-md-3 fw-normal">Location:</h6>
+                        <a class="hvr-grow fw-light details-links" href="https://www.google.com/maps/place/London+SE4" title="Location">London, SE4</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-lg-6">
+                <div class="row d-sm-flex">
+                    <!-- Social Media Links -->
+                    <div class="col-12 d-sm-flex justify-content-sm-end align-items-sm-start mb-3 fs-3 social-links social-links-color">
+                        <a class="hvr-icon-grow" href="https://www.instagram.com/sscales87" target="_blank" title="Link to Instagram Profile" aria-label="Link to Instagram Profile">
+                            <i class="fa-brands fa-instagram hvr-icon social-icon"></i>
+                        </a>
+                        <a class="hvr-icon-grow" href="https://www.linkedin.com/in/sscales/" target="_blank" title="Link to LinkedIn Profile" aria-label="Link to LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin hvr-icon social-icon"></i>
+                        </a>
+                        <a class="hvr-icon-grow" href="https://github.com/sscales-dev" target="_blank" title="Link to GitHub Profile" aria-label="Link to GitHub Profile">
+                            <i class="fa-brands fa-github hvr-icon social-icon"></i>
+                        </a>
+                    </div>
+                    <!-- Download CV Button -->
+                    <div class="col-12 d-sm-flex justify-content-sm-end mb-3 download-cv">
+                        <a class="btn btn-primary px-2 text-nowrap hvr-grow btn-font-style" href="docs/resume-sscales.docx" target="_blank" role="button">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous" ></script>
     <script src="assets/js/script.js"></script>
