@@ -125,6 +125,12 @@ Lighthouse
 - FIXED: languages list from about me page displays over the top of the navigation dropdown when cicked (mobile view)
 - FIXED: when clicking navigation button dropdown, personal info in footer still shows (due to hvr-grow classes)
 
+- border for contact modal should be the same as the dropdown menu (--steel-blue-gray)
+
+- styling in safari is off
+
+- no 768px nor 922px styling
+
 ## Deployment
 
 ### GitHub Pages
